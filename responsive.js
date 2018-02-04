@@ -16,12 +16,12 @@ $(document).ready(function () {
         .css('opacity', '0.5')
       $container
         .find('.rankingPublic')
-        .find('.winner, .runnersup')
-        .css('display', 'none')
+        .find('.result')
+        .css('opacity', '0')
       $container
         .find('.rankingJury')
-        .find('.winner, .runnersup')
-        .css('display', 'block')
+        .find('.result')
+        .css('opacity', '1')
     }
   })
 
@@ -39,12 +39,12 @@ $(document).ready(function () {
         .css('opacity', '0.5')
       $container
         .find('.rankingJury')
-        .find('.winner, .runnersup')
-        .css('display', 'none')
+        .find('.result')
+        .css('opacity', '0')
       $container
         .find('.rankingPublic')
-        .find('.winner, .runnersup')
-        .css('display', 'block')
+        .find('.result')
+        .css('opacity', '1')
     }
   })
 })

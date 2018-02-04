@@ -39,6 +39,7 @@ header img.headerSnoo{
 	position: relative;
 	bottom: -15px;
 	height: 80px;
+	margin: 0 -7px;
 }
 
 /*		SubHeaders */
@@ -113,54 +114,7 @@ header img.headerSnoo{
 	border-top-color: #8488e6;
 }
 
-.rankingContainer .winner{
-	position: relative;
-	overflow: hidden;
-	height: 480px;
-	width: 100%;
-	background: #000 no-repeat center center;
-	background-size: cover;
-}
-
-.rankingContainer .winner .title{
-	position: absolute;
-	bottom: 0;
-	padding: 8px 0;
-	width: 100%;
-
-	text-align: center;
-	font-size: 32px;
-	background: rgba( 0, 0, 0, 0.8);
-}
-
-.rankingContainer .winner .title .ranking{
-	font-weight: 400;
-	font-size: 24px;
-}
-
-.rankingContainer .winner .title span.ranking::before{
-	content: "";
-	display: inline-block;
-	width: 100px;
-	height: 1px;
-	background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
-	position: relative;
-	bottom: 8px;
-	right: 8px;
-}
-
-.rankingContainer .winner .title span.ranking::after{
-	content: "";
-	display: inline-block;
-	width: 100px;
-	height: 1px;
-	background: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1));
-	position: relative;
-	bottom: 8px;
-	left: 8px;
-}
-
-.rankingContainer .runnersup{
+.rankingContainer .result{
 	position: relative;
 	overflow: hidden;
 	width: 20%;
@@ -170,7 +124,7 @@ header img.headerSnoo{
 	float: left;
 }
 
-.rankingContainer .runnersup .title{
+.rankingContainer .result .title{
 	position: absolute;
 	bottom: 0;
 	padding: 4px 0;
@@ -182,26 +136,30 @@ header img.headerSnoo{
 	background: rgba( 0, 0, 0, 0.8);
 }
 
-.rankingContainer .runnersup .title .title2line{
-	display: table-cell;
-	vertical-align: middle;
+.rankingContainer .result .title .showTitle{
+	position: relative;
+	height: 26px;
+}
+
+.rankingContainer .result .title .centerTitle{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 26px;
+    width: 100%;
+    margin: -13px 0 0 -50%;
+}
+
+.rankingContainer .result .title .centerTitle.smallTitle{
 	font-size: 13px;
-	line-height: 12px;
-	width: 100%;
-	height: 24px;
-	margin: 0 auto;
 }
 
-.rankingContainer .runnersup .title .title1line{
-	height: 24px;
-}
-
-.rankingContainer .runnersup .title .ranking{
+.rankingContainer .result .title .ranking{
 	font-weight: 400;
 	font-size: 12px;
 }
 
-.rankingContainer .runnersup .title span.ranking::before{
+.rankingContainer .result .title span.ranking::before{
 	content: "";
 	display: inline-block;
 	width: 30px;
@@ -212,7 +170,7 @@ header img.headerSnoo{
 	right: 4px;
 }
 
-.rankingContainer .runnersup .title span.ranking::after{
+.rankingContainer .result .title span.ranking::after{
 	content: "";
 	display: inline-block;
 	width: 30px;
@@ -223,20 +181,73 @@ header img.headerSnoo{
 	left: 4px;
 }
 
+.rankingContainer .result:nth-of-type(1){
+	position: relative;
+	overflow: hidden;
+	height: 480px;
+	width: 100%;
+	background: #000 no-repeat center center;
+	background-size: cover;
+}
+
+.rankingContainer .result:nth-of-type(1) .title{
+	position: absolute;
+	bottom: 0;
+	padding: 8px 0;
+	width: 100%;
+	height: 60px;
+
+	text-align: center;
+	font-size: 32px;
+	background: rgba( 0, 0, 0, 0.8);
+}
+
+.rankingContainer .result:nth-of-type(1) .title .ranking{
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.rankingContainer .result:nth-of-type(1) .title span.ranking::before{
+	content: "";
+	display: inline-block;
+	width: 100px;
+	height: 1px;
+	background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
+	position: relative;
+	bottom: 8px;
+	right: 8px;
+}
+
+.rankingContainer .result:nth-of-type(1) .title span.ranking::after{
+	content: "";
+	display: inline-block;
+	width: 100px;
+	height: 1px;
+	background: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1));
+	position: relative;
+	bottom: 8px;
+	left: 8px;
+}
+
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-	.rankingContainer .winner {
+	.result{
+		transition: opacity 0.5s;
+	}
+	
+	.rankingContainer .result:nth-of-type(1) {
 		height: 350px;
 	}
+	
 	/* below here are all hacks to make the responsiveness work */
 	/* please someone shoot me for this code */
 	/* -geo */
-	.ranking6 {
+	.ranking {
 		width: 0;
 	}
-	.ranking6 > *:not(.groupHeadingContainer) {
-		width: calc(200% + 20px);
+	.ranking > *:not(.groupHeadingContainer) {
+		width: calc(200% + 20px) !important;
 	}
 	.rankingContainer .groupHeadingContainer {
 		position: relative;
@@ -244,17 +255,17 @@ header img.headerSnoo{
 		cursor: pointer;
 		opacity: 0.5;
 	}
-	.ranking6.rankingJury {
+	.ranking.rankingJury {
 		margin-left: calc(-50% + 10px) !important;
 	}
-	.ranking6.rankingJury .groupHeadingContainer {
+	.ranking.rankingJury .groupHeadingContainer {
 		margin-left: calc(100% + 20px);
 	}
 	.rankingContainer .groupHeadingContainer .juryHeading {
 		padding-right: 10px;
 		padding-left: 0;
 	}
-	.ranking6.rankingJury .groupHeadingContainer .juryHeading:after {
+	.ranking.rankingJury .groupHeadingContainer .juryHeading:after {
 		right: initial;
 		left: -20px;
 		border-top: 0;
@@ -263,11 +274,15 @@ header img.headerSnoo{
 		border-right: 0;
 	}
 
-	.ranking6.rankingJury .winner,
-	.ranking6.rankingJury .runnersup {
-		display: none;
+	.ranking.rankingJury .result{
+		opacity: 0;
 	}
-	.ranking6.rankingPublic .groupHeadingContainer {
+	
+	.ranking.rankingPublic .groupHeadingContainer {
 		opacity: 1;
+	}
+	
+	.rankingContainer .result .title .centerTitle{
+		font-size: 22px !important;
 	}
 }
