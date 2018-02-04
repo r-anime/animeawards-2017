@@ -226,6 +226,12 @@ header img.headerSnoo{
 
 /* Mobile */
 @media screen and (max-width: 600px) {
+	.rankingContainer .winner {
+		height: 350px;
+	}
+	/* below here are all hacks to make the responsiveness work */
+	/* please someone shoot me for this code */
+	/* -geo */
 	.ranking6 {
 		width: 0;
 	}
