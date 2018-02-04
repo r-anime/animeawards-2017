@@ -137,17 +137,13 @@ header img.headerSnoo{
 }
 
 .rankingContainer .result .title .showTitle{
-	position: relative;
 	height: 26px;
 }
 
 .rankingContainer .result .title .centerTitle{
-	position: absolute;
+	position: relative;
     top: 50%;
-    left: 50%;
-    height: 26px;
-    width: 100%;
-    margin: -13px 0 0 -50%;
+	transform: translateY(-50%); 
 }
 
 .rankingContainer .result .title .centerTitle.smallTitle{
@@ -236,7 +232,7 @@ header img.headerSnoo{
 		transition: opacity 0.5s;
 	}
 	.rankingContainer .result{
-		height: 200px;
+		height: 180px;
 	}
 	.rankingContainer .result:nth-of-type(1) {
 		height: 380px;
@@ -287,6 +283,11 @@ header img.headerSnoo{
 	.rankingContainer .result .title .centerTitle{
 		font-size: 22px !important;
 	}
+	
+	.rankingContainer .result .title .ranking{
+		font-weight: 400;
+		font-size: 16px;
+	}
 }
 
 @media screen and (min-width: 601px){
@@ -301,4 +302,6 @@ header img.headerSnoo{
 	.ranking .result{
 		opacity: 1 !important;
 	}
+	
+	
 }
