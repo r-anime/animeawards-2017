@@ -41,14 +41,6 @@ header img.headerSnoo{
 	height: 80px;
 }
 
-/*	Main Content */
-
-#contentBody{
-	width: calc(100% - 40px);
-	max-width: 1080px;
-	margin: 0px auto;
-}
-
 /*		SubHeaders */
 
 .subHeading {
@@ -72,6 +64,14 @@ header img.headerSnoo{
 }
 .rankingContainer .ranking6:nth-of-type(2n) {
 	margin-left: 20px;
+}
+
+/*	Main Content */
+
+#contentBody{
+	width: calc(100% - 40px);
+	max-width: 1080px;
+	margin: 0px auto;
 }
 
 /* Public/jury stuff */
