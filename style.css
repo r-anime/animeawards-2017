@@ -222,3 +222,52 @@ header img.headerSnoo{
 	bottom: 4px;
 	left: 4px;
 }
+
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	.rankingContainer .winner {
+		height: 350px;
+	}
+	/* below here are all hacks to make the responsiveness work */
+	/* please someone shoot me for this code */
+	/* -geo */
+	.ranking6 {
+		width: 0;
+	}
+	.ranking6 > *:not(.groupHeadingContainer) {
+		width: calc(200% + 20px);
+	}
+	.rankingContainer .groupHeadingContainer {
+		position: relative;
+		width: 100%;
+		cursor: pointer;
+		opacity: 0.5;
+	}
+	.ranking6.rankingJury {
+		margin-left: calc(-50% + 10px) !important;
+	}
+	.ranking6.rankingJury .groupHeadingContainer {
+		margin-left: calc(100% + 20px);
+	}
+	.rankingContainer .groupHeadingContainer .juryHeading {
+		padding-right: 10px;
+		padding-left: 0;
+	}
+	.ranking6.rankingJury .groupHeadingContainer .juryHeading:after {
+		right: initial;
+		left: -20px;
+		border-top: 0;
+		border-bottom: 45px solid #8488e6;
+		border-left: 20px solid transparent;
+		border-right: 0;
+	}
+
+	.ranking6.rankingJury .winner,
+	.ranking6.rankingJury .runnersup {
+		display: none;
+	}
+	.ranking6.rankingPublic .groupHeadingContainer {
+		opacity: 1;
+	}
+}
