@@ -1,0 +1,224 @@
+/*	Normalization + Basic Colour */
+
+* {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-style: normal;
+}
+
+*, html, body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #1b1f25;
+	color: #fafbfc;
+	min-height: 2000px;
+}
+
+.clear{
+	clear: both;
+}
+
+/*	Heading */
+
+header{
+	background-color: #6a9de6;
+	text-align: center;
+	position: relative;
+	padding-bottom: 40px;
+	box-shadow: inset 0 -40px rgba(0, 0, 0, 0.2);
+}
+
+header h1{
+	font-size: 60px;
+}
+
+header img.headerSnoo{
+	position: relative;
+	bottom: -15px;
+	height: 80px;
+}
+
+/*	Main Content */
+
+#contentBody{
+	width: calc(100% - 40px);
+	max-width: 1080px;
+	margin: 0px auto;
+}
+
+/*		SubHeaders */
+
+.subHeading {
+	margin: 30px;
+	text-align: center;
+	font-size: 36px;
+}
+
+.catHeading {
+	background: #6a9de6;
+	padding: 5px;
+	font-size: 32px;
+	font-weight: 400;
+	text-align: center;
+	margin: 20px 0;
+}
+.rankingContainer .ranking6 {
+	float: left;
+	width: calc(50% - 10px);
+	position: relative;
+}
+.rankingContainer .ranking6:nth-of-type(2n) {
+	margin-left: 20px;
+}
+
+/* Public/jury stuff */
+.rankingContainer .groupHeadingContainer{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	text-align: center;
+	font-size: 24px;
+	width: 33%;
+	min-width: 130px;
+}
+.rankingContainer .groupHeadingContainer span {
+	display: block;
+	padding: 8px 0 8px 10px;
+}
+.rankingContainer .groupHeadingContainer span:after {
+	content: "";
+	z-index:1;
+	position: absolute;
+	top: 0;
+	right: -20px;
+	border-top: 45px solid;
+	border-right: 20px solid transparent;
+}
+/*		Public Style */
+.rankingContainer .groupHeadingContainer .publicHeading{
+	background-color: #4ab58c;
+}
+.rankingContainer .groupHeadingContainer .publicHeading:after{
+	border-top-color: #4ab58c;
+}
+	/*		Jury Style */
+.rankingContainer .groupHeadingContainer .juryHeading{
+	background-color: #8488e6;
+}
+.rankingContainer .groupHeadingContainer .juryHeading:after {
+	border-top-color: #8488e6;
+}
+
+.rankingContainer .winner{
+	position: relative;
+	overflow: hidden;
+	height: 480px;
+	width: 100%;
+	background: #000 no-repeat center center;
+	background-size: cover;
+}
+
+.rankingContainer .winner .title{
+	position: absolute;
+	bottom: 0;
+	padding: 8px 0;
+	width: 100%;
+
+	text-align: center;
+	font-size: 32px;
+	background: rgba( 0, 0, 0, 0.8);
+}
+
+.rankingContainer .winner .title .ranking{
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.rankingContainer .winner .title span.ranking::before{
+	content: "";
+	display: inline-block;
+	width: 100px;
+	height: 1px;
+	background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
+	position: relative;
+	bottom: 8px;
+	right: 8px;
+}
+
+.rankingContainer .winner .title span.ranking::after{
+	content: "";
+	display: inline-block;
+	width: 100px;
+	height: 1px;
+	background: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1));
+	position: relative;
+	bottom: 8px;
+	left: 8px;
+}
+
+.rankingContainer .runnersup{
+	position: relative;
+	overflow: hidden;
+	width: 20%;
+	height: 180px;
+	background: #000 no-repeat center center;
+	background-size: cover;
+	float: left;
+}
+
+.rankingContainer .runnersup .title{
+	position: absolute;
+	bottom: 0;
+	padding: 4px 0;
+	width: 100%;
+	height: 44px;
+
+	text-align: center;
+	font-size: 18px;
+	background: rgba( 0, 0, 0, 0.8);
+}
+
+.rankingContainer .runnersup .title .title2line{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 13px;
+	line-height: 12px;
+	width: 100%;
+	height: 24px;
+	margin: 0 auto;
+}
+
+.rankingContainer .runnersup .title .title1line{
+	height: 24px;
+}
+
+.rankingContainer .runnersup .title .ranking{
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.rankingContainer .runnersup .title span.ranking::before{
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 1px;
+	background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
+	position: relative;
+	bottom: 4px;
+	right: 4px;
+}
+
+.rankingContainer .runnersup .title span.ranking::after{
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 1px;
+	background: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1));
+	position: relative;
+	bottom: 4px;
+	left: 4px;
+}
