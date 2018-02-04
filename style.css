@@ -185,7 +185,7 @@ header img.headerSnoo{
 	position: relative;
 	overflow: hidden;
 	height: 480px;
-	width: 100%;
+	
 	background: #000 no-repeat center center;
 	background-size: cover;
 }
@@ -235,9 +235,11 @@ header img.headerSnoo{
 	.result{
 		transition: opacity 0.5s;
 	}
-	
+	.rankingContainer .result{
+		height: 200px;
+	}
 	.rankingContainer .result:nth-of-type(1) {
-		height: 350px;
+		height: 380px;
 	}
 	
 	/* below here are all hacks to make the responsiveness work */
@@ -247,7 +249,7 @@ header img.headerSnoo{
 		width: 0;
 	}
 	.ranking > *:not(.groupHeadingContainer) {
-		width: calc(200% + 20px) !important;
+		width: calc(200% + 20px);
 	}
 	.rankingContainer .groupHeadingContainer {
 		position: relative;
@@ -284,5 +286,19 @@ header img.headerSnoo{
 	
 	.rankingContainer .result .title .centerTitle{
 		font-size: 22px !important;
+	}
+}
+
+@media screen and (min-width: 601px){
+	.rankingContainer .result:nth-of-type(1){
+		width: 100%;
+	}
+	
+	.ranking .groupHeadingContainer {
+		opacity: 1 !important;
+	}
+	
+	.ranking .result{
+		opacity: 1 !important;
 	}
 }
