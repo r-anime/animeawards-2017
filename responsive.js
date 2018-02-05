@@ -1,6 +1,7 @@
+/* globals $ */
 $(document).ready(function () {
-  $juryButtons = $('.juryHeading')
-  $publicButtons = $('.publicHeading')
+  var $juryButtons = $('.juryHeading')
+  var $publicButtons = $('.publicHeading')
 
   $juryButtons.on('click', function () {
     console.log('test')
