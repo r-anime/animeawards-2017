@@ -68,6 +68,11 @@
 							"img": "img/action/recreators.jpg",
 							"place": "6"
 						}
+					],
+					"hms" : [
+						{
+							"name": "Senki Zesshou Symphogear AXZ"
+						}
 					]
 				},
 				{
@@ -401,6 +406,73 @@
 						{
 							"name": "Demi-chan wa Kataritai",
 							"img": "img/sol/demichan.jpg",
+							"place": "6"
+						}
+					]
+				},
+				{
+					"name": "Best Thriller/Mystery",
+					"public": [
+						{
+							"name": "Princess Principal",
+							"img": "img/thriller/prpr.jpg",
+							"place": "1"
+						},
+						{
+							"name": "ACCA-13",
+							"img": "img/thriller/acca13.jpg",
+							"place": "2"
+						},
+						{
+							"name": "Inuyashiki",
+							"img": "img/thriller/inuyashiki.jpg",
+							"place": "3"
+						},
+						{
+							"name": "Kakegurui",
+							"img": "img/thriller/kakegurui.jpg",
+							"place": "4"
+						},
+						{
+							"name": "The Kubikiri Cycle",
+							"img": "img/thriller/kubikiri.jpg",
+							"place": "5"
+						},
+						{
+							"name": "Kado: The Right Answer",
+							"img": "img/thriller/kada.jpg",
+							"place": "6"
+						}
+					],
+					"jury": [
+						{
+							"name": "The Kubikiri Cycle",
+							"img": "img/thriller/kubikiri.jpg",
+							"place": "1"
+						},
+						{
+							"name": "ACCA-13",
+							"img": "img/thriller/acca13.jpg",
+							"place": "2"
+						},
+						{
+							"name": "Princess Principal",
+							"img": "img/thriller/prpr.jpg",
+							"place": "3"
+						},
+						{
+							"name": "Kado: The Right Answer",
+							"img": "img/thriller/kada.jpg",
+							"place": "4"
+						},
+						{
+							"name": "Kakegurui",
+							"img": "img/thriller/kakegurui.jpg",
+							"place": "5"
+						},
+						{
+							"name": "Inuyashiki",
+							"img": "img/thriller/inuyashiki.jpg",
 							"place": "6"
 						}
 					]

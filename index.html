@@ -24,7 +24,7 @@
 				</h2>
 				<div class="rankingContainer" ng-repeat="category in award.categories">
 					<h3 class="catHeading">
-						{{category.name}}
+						{{category.name}} Anime
 					</h3>
 					<div class="ranking ranking{{category.public.length}} rankingPublic">
 						<h4 class="groupHeadingContainer"><span class="publicHeading" onclick="publicButtonClick(this);">Public Pick</span></h4>
@@ -59,6 +59,16 @@
 								</div>
 							</div>
 						<div class="clear"></div>
+					</div>
+					<div class="hmContainer">
+						<h4 class="hmHeadingContainer">
+							Honorable Mentions
+						</h4>
+						<ul>
+							<li ng-repeat="hm in category.hms">
+								{{hm.name}}
+							</li>
+						</ul>
 					</div>
 					<div class="clear"></div>
 				</div>
