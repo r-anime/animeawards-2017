@@ -136,6 +136,140 @@
 							"place": "6"
 						}
 					]
+				},
+				{
+					"name": "Best Comedy",
+					"public": [
+						{
+							"name": "KonoSuba 2",
+							"img": "img/comedy/kono2ba.jpg",
+							"place": "1"
+						},
+						{
+							"name": "Gabriel DropOut",
+							"img": "img/comedy/gabdrop.jpg",
+							"place": "2"
+						},
+						{
+							"name": "Gamers!",
+							"img": "img/comedy/gamers.jpg",
+							"place": "3"
+						},
+						{
+							"name": "Mahoujin Guru Guru",
+							"img": "img/comedy/guruguru.jpg",
+							"place": "4"
+						},
+						{
+							"name": "Blend S",
+							"img": "img/comedy/blends.jpg",
+							"place": "5"
+						},
+						{
+							"name": "Ani ni Tsukeru",
+							"img": "img/comedy/anini.jpg",
+							"place": "6"
+						}
+					],
+					"jury": [
+						{
+							"name": "KonoSuba 2",
+							"img": "img/comedy/kono2ba.jpg",
+							"place": "1"
+						},
+						{
+							"name": "Mahoujin Guru Guru",
+							"img": "img/comedy/guruguru.jpg",
+							"place": "2"
+						},
+						{
+							"name": "Ani ni Tsukeru",
+							"img": "img/comedy/anini.jpg",
+							"place": "3"
+						},
+						{
+							"name": "Gamers!",
+							"img": "img/comedy/gamers.jpg",
+							"place": "4"
+						},
+						{
+							"name": "Gabriel DropOut",
+							"img": "img/comedy/gabdrop.jpg",
+							"place": "5"
+						},
+						{
+							"name": "Blend S",
+							"img": "img/comedy/blends.jpg",
+							"place": "6"
+						}
+					]
+				},
+				{
+					"name": "Best Drama",
+					"public": [
+						{
+							"name": "3-gatsu no Lion",
+							"img": "img/comedy/3gatsu.jpg",
+							"place": "1"
+						},
+						{
+							"name": "Rakugo 2",
+							"img": "img/comedy/rakugo2.jpg",
+							"place": "2"
+						},
+						{
+							"name": "Owarimonogatari 2",
+							"img": "img/comedy/owari2.jpg",
+							"place": "2"
+						},
+						{
+							"name": "Sakura Quest",
+							"img": "img/comedy/sakuraquest.jpg",
+							"place": "4"
+						},
+						{
+							"name": "Saekano &#9837;",
+							"img": "img/comedy/saekano.jpg",
+							"place": "5"
+						},
+						{
+							"name": "Uchouten Kazuku 2",
+							"img": "img/comedy/uk2.jpg",
+							"place": "6"
+						}
+					],
+					"jury": [
+						{
+							"name": "Shouwa Genroku Rakugo Shinjuu 2",
+							"img": "img/comedy/rakugo2.jpg",
+							"place": "1"
+						},
+						{
+							"name": "3-gatsu no Lion",
+							"img": "img/comedy/3gatsu.jpg",
+							"place": "2"
+						},
+						{
+							"name": "Owarimonogatari 2",
+							"img": "img/comedy/owari2.jpg",
+							"place": "3"
+						},
+						{
+							"name": "Uchouten Kazuku 2",
+							"img": "img/comedy/gamers.jpg",
+							"place": "4"
+						},
+						{
+							"name": "Sakura Quest",
+							"img": "img/comedy/sakuraquest.jpg",
+							"place": "5"
+						},
+						{
+							"name": "Saekano &#9837;",
+							"img": "img/comedy/saekano.jpg",
+							"place": "6"
+						}
+					]
 				}
 			]
 		},
