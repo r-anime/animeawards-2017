@@ -1106,7 +1106,993 @@
       ]
     },
     {
-      "name": "Production Awards"
+      "name": "Production Awards",
+	  "categories": [
+			{
+			  "name": "Best Animation",
+			  "public": [
+				{
+				  "name": "Houseki no Kuni",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "My Hero Academia",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Little Witch Academia",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Miss Kobayashi's Dragon Maid",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "Attack on Titan S2",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Kekkai Sensen & Beyond",
+				  "img": "",
+				  "place": "6"
+				}
+			  ],
+			  "jury": [
+				{
+				  "name": "Houseki no Kuni",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Little Witch Academia",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Miss Kobayashi's Dragon Maid",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "My Hero Academia",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "Kekkai Sensen & Beyond",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Attack on Titan",
+				  "img": "",
+				  "place": "6"
+				}
+			  ],
+			  "hms": [
+				{
+				  "name": "3-gatsu no Lion (ep 26)"
+				},
+				{
+				  "name": "Blade Runner: Black Out 2022"
+				},
+				{
+				  "name": "Fate/Apocrypha (ep 22)"
+				},
+				{
+				  "name": "Garo: Vanishing Line (ep 8)"
+				},
+				{
+				  "name": "Pokemon Sun & Moon (ep 43)"
+				},
+				{
+				  "name": "Princess Principal (ep 5)"
+				},
+				{
+				  "name": "Saekano S2 (ep 10)"
+				},
+				{
+				  "name": "Shingeki no Bahamut: Virgin Soul (ep 1)"
+				}
+			  ]
+			},
+			{
+			  "name": "Best Art Style",
+			  "public": [
+				{
+				  "name": "Made in Abyss",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Houseki no Kuni",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "3-gatsu no Lion",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Owarimonogatari 2",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "Girls' Last Tour",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Uchouten Kazoku 2",
+				  "img": "",
+				  "place": "6"
+				}
+			  ],
+			  "jury": [
+				{
+				  "name": "3-gatsu no Lion",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Uchouten Kazoku 2",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Girls' Last Tour",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Owarimonogatari 2",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "Houseki no Kuni",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Made in Abyss",
+				  "img": "",
+				  "place": "6"
+				}
+			  ],
+			  "hms": [
+				{
+				  "name": "Urahara"
+				},
+				{
+				  "name": "ACCA-13"
+				},
+				{
+				  "name": "18if (ep 7)"
+				},
+				{
+				  "name": "Blade Runner: Black Out 2022"
+				},
+				{
+				  "name": "Princess Principal"
+				}
+			  ]
+			},
+			{
+			  "name": "Best Background Art",
+			  "public": [
+				{
+				  "name": "Made in Abyss",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Houseki no Kuni",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Girls' Last Tour",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Uchouten Kazoku 2",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "Children of the Whales",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Minami Kamakura",
+				  "img": "",
+				  "place": "6"
+				}
+			  ],
+			  "jury": [
+				{
+				  "name": "Uchouten Kazoku 2",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Children of the Whales",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Made in Abyss",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Minami Kamakura",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "Girls' Last Tour",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Houseki no Kuni",
+				  "img": "",
+				  "place": "6"
+				}
+			  ],
+			  "hms": [
+				{
+				  "name": "Princess Principal"
+				},
+				{
+				  "name": "ACCA-13"
+				}
+			  ]
+			},
+			{
+			  "name": "Best Cinematography ",
+			  "public": [
+				{
+				  "name": "Houseki no Kuni",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Owarimonogatari 2",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Made in Abyss",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "3-gatsu no Lion",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "Rakugo 2",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Girls' Last Tour",
+				  "img": "",
+				  "place": "6"
+				}
+			  ],
+			  "jury": [
+				{
+				  "name": "Houseki no Kuni",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Rakugo 2",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Owarimonogatari",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "3-gatsu no Lion",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "Girls' Last Tour",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Made in Abyss",
+				  "img": "",
+				  "place": "6"
+				}
+			  ],
+			  "hms": [
+				{
+				  "name": "Kuzu no Honkai"
+				},
+				{
+				  "name": "Miss Kobayashi's Dragon Maid"
+				},
+				{
+				  "name": "Little Witch Academia"
+				}
+			  ]
+			},
+			{
+			  "name": "Best Character Design",
+			  "public": [
+				{
+				  "name": "My Hero Academia",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Houseki no Kuni",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Princess Principal",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Little Witch Academia",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "ACCA-13",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Made in Abyss",
+				  "img": "",
+				  "place": "6"
+				}
+			  ],
+			  "jury": [
+				{
+				  "name": "ACCA-13",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Houseki no Kuni",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Princess Principal",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Little Witch Academia",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "My Hero Academia 2",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Made in Abyss",
+				  "img": "",
+				  "place": "6"
+				}
+			  ],
+			  "hms": [
+				{
+				  "name": "3-gatsu no Lion"
+				},
+				{
+				  "name": "Miss Kobayashi's Dragon Maid"
+				},
+				{
+				  "name": "Kemono Friends"
+				},
+				{
+				  "name": "Kakegurui"
+				},
+				{
+				  "name": "Sakura Quest"
+				}
+			  ]
+			},
+			{
+			  "name": "Best Original Soundtrack (OST)",
+			  "public": [
+				{
+				  "name": "Made in Abyss",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Houseki no Kuni",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Girls' Last Tour",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "3-gatsu no Lion",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "Little Witch Academia",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Kuzu no Honkai",
+				  "img": "",
+				  "place": "6"
+				}
+			  ],
+			  "jury": [
+				{
+				  "name": "Girls' Last Tour",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Houseki no Kuni",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Made in Abyss",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Little Witch Academia",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "3-gatsu no Lion",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Kuzu no Honkai",
+				  "img": "",
+				  "place": "6"
+				}
+			  ],
+			  "hms": [
+				{
+				  "name": "ACCA-13"
+				},
+				{
+				  "name": "Princess Principal"
+				}
+			  ]
+			},
+			{
+			  "name": "Best OP (Opening)",
+			  "public": [
+				{
+				  "name": "Aozora no Rhapsody",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "The Other Side of the Wall",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Ugoku, Ugoku",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Imawa no Shinigami",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "Peace Sign",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Deal with the Devil",
+				  "img": "",
+				  "place": "6"
+				},
+				{
+				  "name": "Dark Cherry Mystery",
+				  "img": "",
+				  "place": "7"
+				},
+				{
+				  "name": "Deep in the Abyss",
+				  "img": "",
+				  "place": "8"
+				},{
+				  "name": "Flag Wo Tatero",
+				  "img": "",
+				  "place": "9"
+				},
+				{
+				  "name": "Don't",
+				  "img": "",
+				  "place": "10"
+				}
+			  ],
+			  "jury": [
+				{
+				  "name": "Imawa no Shinigami",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Ugoku, Ugoku",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Deal with the Devil",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Flag Wo Tatero",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Dark Cherry Mystery",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Aozora no Rhapsody",
+				  "img": "",
+				  "place": "6"
+				},
+				{
+				  "name": "Don't",
+				  "img": "",
+				  "place": "7"
+				},
+				{
+				  "name": "The Other Side of the Wall",
+				  "img": "",
+				  "place": "8"
+				},{
+				  "name": "Peace Sign",
+				  "img": "",
+				  "place": "9"
+				},
+				{
+				  "name": "Deep in the Abyss",
+				  "img": "",
+				  "place": "10"
+				}
+			  ],
+			  "hms": [
+				{
+				  "name": "Nasagumama Sawagumama"
+				},
+				{
+				  "name": "Shadow & Truth"
+				},
+				{
+				  "name": "Kyoumen no Nami"
+				}
+			  ]
+			},
+			{
+			  "name": "Best ED (Ending) ",
+			  "public": [
+				{
+				  "name": "Heikousen",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "More One Night",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Isukan Communication",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Los! Los! Los!",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "Kirameku Hamabe",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Freesia",
+				  "img": "",
+				  "place": "6"
+				},
+				{
+				  "name": "Toumei na Tsubasa",
+				  "img": "",
+				  "place": "7"
+				},
+				{
+				  "name": "Kafune",
+				  "img": "",
+				  "place": "8"
+				},{
+				  "name": "Tabi no Hidarite",
+				  "img": "",
+				  "place": "9"
+				},
+				{
+				  "name": "Kirameki Lifeline",
+				  "img": "",
+				  "place": "10"
+				}
+			  ],
+			  "jury": [
+				{
+				  "name": "More One Night",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Heikousen",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Toumei na Tsubasa",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Kafune",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "Kirameku Hamabe",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Kirameki Lifeline",
+				  "img": "",
+				  "place": "6"
+				},
+				{
+				  "name": "Isukan Communication",
+				  "img": "",
+				  "place": "7"
+				},
+				{
+				  "name": "Freesia",
+				  "img": "",
+				  "place": "8"
+				},{
+				  "name": "Tabi no Hidarite",
+				  "img": "",
+				  "place": "9"
+				},
+				{
+				  "name": "Los! Los! Los!",
+				  "img": "",
+				  "place": "10"
+				}
+			  ],
+			  "hms": [
+				{
+				  "name": "Orion"
+				},
+				{
+				  "name": "Rubikon"
+				},
+				{
+				  "name": "Step up Love"
+				},
+				{
+				  "name": "Rubikon"
+				}
+			  ]
+			}
+		]
+    },
+	{
+      "name": "Main Awards",
+	  "categories": [
+		{
+			  "name": "Best Short",
+			  "public": [
+				{
+				  "name": "Tsurezure Children",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Aho Girl",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Blade Runner 2022",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Teekyuu 9",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "Ani ni Tsukeru",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Crystal Clear",
+				  "img": "",
+				  "place": "6"
+				}
+			  ],
+			  "jury": [
+				{
+				  "name": "Crystal Clear",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Ani ni Tsukeru",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Tsurezure Children",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Teekyuu 9",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "Blade Runner 2022",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Aho Girl",
+				  "img": "",
+				  "place": "6"
+				}
+			  ],
+			  "hms": [
+				{
+				  "name": "Kimi no Hikari: Asagao to Kase-san"
+				},
+				{
+				  "name": "Fastening Days"
+				},
+				{
+				  "name": "Hachiko↑Dance"
+				}
+			  ]
+			},
+			{
+			  "name": "Best Movie",
+			  "public": [
+				{
+				  "name": "Koe no Katachi",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Kimi no Na Wa",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Kizumonogatari III",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "In This Corner of the World",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "The Night is Short, Walk on Girl",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Lu Over the Wall",
+				  "img": "",
+				  "place": "6"
+				}
+			  ],
+			  "jury": [
+				{
+				  "name": "The Night is Short, Walk on Girl",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Koe no Katachi",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "In This Corner of the World",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Lu Over the Wall",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "Kimi no Na Wa",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Kizumonogatari",
+				  "img": "",
+				  "place": "6"
+				}
+			  ],
+			  "hms": [
+				{
+				  "name": "Lupin the IIIrd: Goemon Ishikawa's Spray of Blood"
+				}
+			  ]
+			},
+			{
+			  "name": "Anime of the Year",
+			  "public": [
+				{
+				  "name": "Made in Abyss",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "Houseki no Kuni",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "My Hero Academia",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Shouwa Genroku Rakugo Shinjuu 2",
+				  "img": "",
+				  "place": "4"
+				},
+				{
+				  "name": "3-gatsu no Lion",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "Konosuba 2",
+				  "img": "",
+				  "place": "6"
+				},
+				{
+				  "name": "Miss Kobayashi's Dragon Maid",
+				  "img": "",
+				  "place": "7"
+				},
+				{
+				  "name": "Tsuki ga Kirei",
+				  "img": "",
+				  "place": "8"
+				},{
+				  "name": "Girls' Last Tour",
+				  "img": "",
+				  "place": "9"
+				},
+				{
+				  "name": "ACCA-13",
+				  "img": "",
+				  "place": "10"
+				}
+			  ],
+			  "jury": [
+				{
+				  "name": "Shouwa Genroku Rakugo Shinjuu 2",
+				  "img": "",
+				  "place": "1"
+				},
+				{
+				  "name": "3-gatsu no Lion",
+				  "img": "",
+				  "place": "2"
+				},
+				{
+				  "name": "Houseki no Kuni",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Girls' Last Tour",
+				  "img": "",
+				  "place": "3"
+				},
+				{
+				  "name": "Made in Abyss",
+				  "img": "",
+				  "place": "5"
+				},
+				{
+				  "name": "ACCA-13",
+				  "img": "",
+				  "place": "6"
+				},
+				{
+				  "name": "Miss Kobayashi's Dragon Maid",
+				  "img": "",
+				  "place": "7"
+				},
+				{
+				  "name": "Tsuki ga Kirei",
+				  "img": "",
+				  "place": "8"
+				},{
+				  "name": "My Hero Academia",
+				  "img": "",
+				  "place": "9"
+				},
+				{
+				  "name": "KonoSuba 2",
+				  "img": "",
+				  "place": "10"
+				}
+			  ],
+			}
+	  ]
     }
   ]
 }
