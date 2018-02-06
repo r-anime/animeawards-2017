@@ -140,6 +140,11 @@
               "img": "img/adventure/kino.jpg",
               "place": "6"
             }
+          ],
+		  "hms": [
+            {
+              "name": "Shingeki no Bahamut: Virgin Soul"
+            }
           ]
         },
         {
@@ -206,6 +211,14 @@
               "name": "Blend S",
               "img": "img/comedy/blends.jpg",
               "place": "6"
+            }
+          ],
+		  "hms": [
+            {
+              "name": "Imouto Sae Ireba Ii"
+            },
+			{
+              "name": "Gintama"
             }
           ]
         },
@@ -274,6 +287,14 @@
               "img": "img/drama/saekano.jpg",
               "place": "6"
             }
+          ],
+		  "hms": [
+            {
+              "name": "Yuuki Yuuna wa Yuusha de Aru: Washio Sumi no Shou + Yuusha no Shou"
+            },
+			{
+			  "name": "Welcome to the Ballroom"
+			}
           ]
         },
         {
@@ -408,6 +429,11 @@
               "img": "img/sol/demichan.jpg",
               "place": "6"
             }
+          ],
+		  "hms": [
+            {
+              "name": "Natsume Yuujinchou Roku"
+            }
           ]
         },
         {
@@ -474,6 +500,11 @@
               "name": "Inuyashiki",
               "img": "img/thriller/inuyashiki.jpg",
               "place": "6"
+            }
+          ],
+		  "hms": [
+            {
+              "name": "Juuni Taisen"
             }
           ]
         }
