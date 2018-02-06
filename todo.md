@@ -3,6 +3,7 @@
 - [x] Styling for 10 nomination categories
 - [ ] Add all categories to page (see below)
 - [ ] Grab images for all nominees
+  - [ ] Scale images to 600px width for faster load times
 - [ ] Add MAL links to all nominees
 
 # Tentative
