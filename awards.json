@@ -69,6 +69,73 @@
 							"place": "6"
 						}
 					]
+				},
+				{
+					"name": "Best Adventure",
+					"public": [
+						{
+							"name": "Made in Abyss",
+							"img": "img/adventure/mia.jpg",
+							"place": "1"
+						},
+						{
+							"name": "Houseki no Kuni",
+							"img": "img/adventure/houseki.jpg",
+							"place": "2"
+						},
+						{
+							"name": "Little Witch Academia",
+							"img": "img/adventure/lwa.jpg",
+							"place": "3"
+						},
+						{
+							"name": "Kemono Friends",
+							"img": "img/adventure/kemofure.jpg",
+							"place": "4"
+						},
+						{
+							"name": "Kino's Journey 2017",
+							"img": "img/adventure/kino.jpg",
+							"place": "5"
+						},
+						{
+							"name": "Urahara",
+							"img": "img/adventure/urahara.jpg",
+							"place": "6"
+						}
+					],
+					"jury": [
+						{
+							"name": "Houseki no Kuni",
+							"img": "img/adventure/houseki.jpg",
+							"place": "1"
+						},
+						{
+							"name": "Made in Abyss",
+							"img": "img/adventure/mia.jpg",
+							"place": "2"
+						},
+						{
+							"name": "Kemono Friends",
+							"img": "img/adventure/kemofure.jpg",
+							"place": "3"
+						},
+						{
+							"name": "Little Witch Academia",
+							"img": "img/adventure/lwa.jpg",
+							"place": "4"
+						},
+						{
+							"name": "Urahara",
+							"img": "img/adventure/urahara.jpg",
+							"place": "5"
+						},
+						{
+							"name": "Kino's Journey 2017",
+							"img": "img/adventure/kino.jpg",
+							"place": "6"
+						}
+					]
 				}
 			]
 		},
