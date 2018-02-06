@@ -209,68 +209,202 @@
 					"public": [
 						{
 							"name": "3-gatsu no Lion",
-							"img": "img/comedy/3gatsu.jpg",
+							"img": "img/drama/3gatsu.jpg",
 							"place": "1"
 						},
 						{
 							"name": "Rakugo 2",
-							"img": "img/comedy/rakugo2.jpg",
+							"img": "img/drama/rakugo2.jpg",
 							"place": "2"
 						},
 						{
 							"name": "Owarimonogatari 2",
-							"img": "img/comedy/owari2.jpg",
+							"img": "img/drama/owari2.jpg",
 							"place": "2"
 						},
 						{
 							"name": "Sakura Quest",
-							"img": "img/comedy/sakuraquest.jpg",
+							"img": "img/drama/sakuraquest.jpg",
 							"place": "4"
 						},
 						{
-							"name": "Saekano &#9837;",
-							"img": "img/comedy/saekano.jpg",
+							"name": "Saekano S2",
+							"img": "img/drama/saekano.jpg",
 							"place": "5"
 						},
 						{
 							"name": "Uchouten Kazuku 2",
-							"img": "img/comedy/uk2.jpg",
+							"img": "img/drama/uk2.jpg",
 							"place": "6"
 						}
 					],
 					"jury": [
 						{
 							"name": "Shouwa Genroku Rakugo Shinjuu 2",
-							"img": "img/comedy/rakugo2.jpg",
+							"img": "img/drama/rakugo2.jpg",
 							"place": "1"
 						},
 						{
 							"name": "3-gatsu no Lion",
-							"img": "img/comedy/3gatsu.jpg",
+							"img": "img/drama/3gatsu.jpg",
 							"place": "2"
 						},
 						{
 							"name": "Owarimonogatari 2",
-							"img": "img/comedy/owari2.jpg",
+							"img": "img/drama/owari2.jpg",
 							"place": "3"
 						},
 						{
 							"name": "Uchouten Kazuku 2",
-							"img": "img/comedy/gamers.jpg",
+							"img": "img/drama/gamers.jpg",
 							"place": "4"
 						},
 						{
 							"name": "Sakura Quest",
-							"img": "img/comedy/sakuraquest.jpg",
+							"img": "img/drama/sakuraquest.jpg",
 							"place": "5"
 						},
 						{
-							"name": "Saekano &#9837;",
-							"img": "img/comedy/saekano.jpg",
+							"name": "Saekano S2",
+							"img": "img/drama/saekano.jpg",
 							"place": "6"
 						}
 					]
-				}
+				},
+				{
+					"name": "Best Romance",
+					"public": [
+						{
+							"name": "Tsuki ga Kirei",
+							"img": "img/romance/tsukiga.jpg",
+							"place": "1"
+						},
+						{
+							"name": "Tsurezure Children",
+							"img": "img/romance/tsurezure.jpg",
+							"place": "2"
+						},
+						{
+							"name": "Net-juu no Susume",
+							"img": "img/romance/netjuu.jpg",
+							"place": "3"
+						},
+						{
+							"name": "Kuzu no Honkai",
+							"img": "img/romance/kuzu.jpg",
+							"place": "4"
+						},
+						{
+							"name": "Just Because",
+							"img": "img/romance/justbecause.jpg",
+							"place": "5"
+						},
+						{
+							"name": "10 cm Datta",
+							"img": "img/romance/anini.jpg",
+							"place": "6"
+						}
+					],
+					"jury": [
+						{
+							"name": "Tsuki ga Kirei",
+							"img": "img/romance/tsukiga.jpg",
+							"place": "1"
+						},
+						{
+							"name": "Tsurezure Children",
+							"img": "img/romance/tsurezure.jpg",
+							"place": "2"
+						},
+						{
+							"name": "Kuzu no Honkai",
+							"img": "img/romance/kuzu.jpg",
+							"place": "3"
+						},
+						{
+							"name": "Net-juu no Susume",
+							"img": "img/romance/netjuu.jpg",
+							"place": "4"
+						},
+						{
+							"name": "Just Because",
+							"img": "img/romance/justbecause.jpg",
+							"place": "5"
+						},
+						{
+							"name": "10 cm Datta",
+							"img": "img/romance/anini.jpg",
+							"place": "6"
+						}
+					]
+				},
+				{
+					"name": "Best Slice of Life",
+					"public": [
+						{
+							"name": "Miss Kobayashi's Dragon Maid",
+							"img": "img/sol/dragonmaid.jpg",
+							"place": "1"
+						},
+						{
+							"name": "Girls' Last Tour",
+							"img": "img/sol/glt.jpg",
+							"place": "2"
+						},
+						{
+							"name": "Demi-chan wa Kataritai",
+							"img": "img/sol/demichan.jpg",
+							"place": "3"
+						},
+						{
+							"name": "New Game!!",
+							"img": "img/sol/newgame2.jpg",
+							"place": "4"
+						},
+						{
+							"name": "Konohana Kitan",
+							"img": "img/sol/konohana.jpg",
+							"place": "5"
+						},
+						{
+							"name": "Urara Meirochou",
+							"img": "img/sol/urara.jpg",
+							"place": "6"
+						}
+					],
+					"jury": [
+						{
+							"name": "Girls' Last Tour",
+							"img": "img/sol/glt.jpg",
+							"place": "1"
+						},
+						{
+							"name": "New Game!!",
+							"img": "img/sol/newgame2.jpg",
+							"place": "2"
+						},
+						{
+							"name": "Urara Meirochou",
+							"img": "img/sol/urara.jpg",
+							"place": "3"
+						},
+						{
+							"name": "Konohana Kitan",
+							"img": "img/sol/konohana.jpg",
+							"place": "4"
+						},
+						{
+							"name": "Dragon Maid",
+							"img": "img/sol/dragonmaid.jpg",
+							"place": "5"
+						},
+						{
+							"name": "Demi-chan wa Kataritai",
+							"img": "img/sol/demichan.jpg",
+							"place": "6"
+						}
+					]
+				},
 			]
 		},
 		{
