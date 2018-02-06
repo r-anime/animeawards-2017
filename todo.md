@@ -6,6 +6,7 @@
 - [ ] Grab images for all nominees
   - [ ] Scale images to 600px width for faster load times
 - [ ] Add MAL links to all nominees
+- [ ] ADD HONORABLE MENTIONS LUL
 
 # Tentative
 - [ ] Convert into using Angular templates + json data parsing
