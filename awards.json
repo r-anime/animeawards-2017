@@ -1,489 +1,1112 @@
 {
-	"awards": [
+  "awards": [
+    {
+      "name": "Genre Awards",
+      "categories": [
+        {
+          "name": "Best Action Anime",
+          "public": [
+            {
+              "name": "My Hero Academia",
+              "img": "img/action/bnhas2.jpg",
+              "place": "1"
+            },
+            {
+              "name": "Attack on Titan Season 2",
+              "img": "img/action/snks2.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Youjo Senki",
+              "img": "img/action/youjosenki.jpg",
+              "place": "3"
+            },
+            {
+              "name": "Kekkai Sensen & Beyond",
+              "img": "img/action/bbbb.jpg",
+              "place": "4"
+            },
+            {
+              "name": "Re:Creators",
+              "img": "img/action/recreators.jpg",
+              "place": "5"
+            },
+            {
+              "name": "The Dragon Dentist",
+              "img": "img/action/dragondentist.jpg",
+              "place": "6"
+            }
+          ],
+          "jury": [
+            {
+              "name": "My Hero Academia",
+              "img": "img/action/bnhas2.jpg",
+              "place": "1"
+            },
+            {
+              "name": "Youjo Senki",
+              "img": "img/action/youjosenki.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Kekkai Sensen & Beyond",
+              "img": "img/action/bbbb.jpg",
+              "place": "3"
+            },
+            {
+              "name": "The Dragon Dentist",
+              "img": "img/action/dragondentist.jpg",
+              "place": "4"
+            },
+            {
+              "name": "Attack on Titan Season 2",
+              "img": "img/action/snks2.jpg",
+              "place": "5"
+            },
+            {
+              "name": "Re:Creators",
+              "img": "img/action/recreators.jpg",
+              "place": "6"
+            }
+          ],
+          "hms": [
+            {
+              "name": "Senki Zesshou Symphogear AXZ"
+            }
+          ]
+        },
+        {
+          "name": "Best Adventure Anime",
+          "public": [
+            {
+              "name": "Made in Abyss",
+              "img": "img/adventure/mia.jpg",
+              "place": "1"
+            },
+            {
+              "name": "Houseki no Kuni",
+              "img": "img/adventure/houseki.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Little Witch Academia",
+              "img": "img/adventure/lwa.jpg",
+              "place": "3"
+            },
+            {
+              "name": "Kemono Friends",
+              "img": "img/adventure/kemofure.jpg",
+              "place": "4"
+            },
+            {
+              "name": "Kino's Journey 2017",
+              "img": "img/adventure/kino.jpg",
+              "place": "5"
+            },
+            {
+              "name": "Urahara",
+              "img": "img/adventure/urahara.jpg",
+              "place": "6"
+            }
+          ],
+          "jury": [
+            {
+              "name": "Houseki no Kuni",
+              "img": "img/adventure/houseki.jpg",
+              "place": "1"
+            },
+            {
+              "name": "Made in Abyss",
+              "img": "img/adventure/mia.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Kemono Friends",
+              "img": "img/adventure/kemofure.jpg",
+              "place": "3"
+            },
+            {
+              "name": "Little Witch Academia",
+              "img": "img/adventure/lwa.jpg",
+              "place": "4"
+            },
+            {
+              "name": "Urahara",
+              "img": "img/adventure/urahara.jpg",
+              "place": "5"
+            },
+            {
+              "name": "Kino's Journey 2017",
+              "img": "img/adventure/kino.jpg",
+              "place": "6"
+            }
+          ]
+        },
+        {
+          "name": "Best Comedy Anime",
+          "public": [
+            {
+              "name": "KonoSuba 2",
+              "img": "img/comedy/kono2ba.jpg",
+              "place": "1"
+            },
+            {
+              "name": "Gabriel DropOut",
+              "img": "img/comedy/gabdrop.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Gamers!",
+              "img": "img/comedy/gamers.jpg",
+              "place": "3"
+            },
+            {
+              "name": "Mahoujin Guru Guru",
+              "img": "img/comedy/guruguru.jpg",
+              "place": "4"
+            },
+            {
+              "name": "Blend S",
+              "img": "img/comedy/blends.jpg",
+              "place": "5"
+            },
+            {
+              "name": "Ani ni Tsukeru",
+              "img": "img/comedy/anini.jpg",
+              "place": "6"
+            }
+          ],
+          "jury": [
+            {
+              "name": "KonoSuba 2",
+              "img": "img/comedy/kono2ba.jpg",
+              "place": "1"
+            },
+            {
+              "name": "Mahoujin Guru Guru",
+              "img": "img/comedy/guruguru.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Ani ni Tsukeru",
+              "img": "img/comedy/anini.jpg",
+              "place": "3"
+            },
+            {
+              "name": "Gamers!",
+              "img": "img/comedy/gamers.jpg",
+              "place": "4"
+            },
+            {
+              "name": "Gabriel DropOut",
+              "img": "img/comedy/gabdrop.jpg",
+              "place": "5"
+            },
+            {
+              "name": "Blend S",
+              "img": "img/comedy/blends.jpg",
+              "place": "6"
+            }
+          ]
+        },
+        {
+          "name": "Best Drama Anime",
+          "public": [
+            {
+              "name": "3-gatsu no Lion",
+              "img": "img/drama/3gatsu.jpg",
+              "place": "1"
+            },
+            {
+              "name": "Rakugo 2",
+              "img": "img/drama/rakugo2.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Owarimonogatari 2",
+              "img": "img/drama/owari2.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Sakura Quest",
+              "img": "img/drama/sakuraquest.jpg",
+              "place": "4"
+            },
+            {
+              "name": "Saekano S2",
+              "img": "img/drama/saekano.jpg",
+              "place": "5"
+            },
+            {
+              "name": "Uchouten Kazuku 2",
+              "img": "img/drama/uk2.jpg",
+              "place": "6"
+            }
+          ],
+          "jury": [
+            {
+              "name": "Shouwa Genroku Rakugo Shinjuu 2",
+              "img": "img/drama/rakugo2.jpg",
+              "place": "1"
+            },
+            {
+              "name": "3-gatsu no Lion",
+              "img": "img/drama/3gatsu.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Owarimonogatari 2",
+              "img": "img/drama/owari2.jpg",
+              "place": "3"
+            },
+            {
+              "name": "Uchouten Kazuku 2",
+              "img": "img/drama/gamers.jpg",
+              "place": "4"
+            },
+            {
+              "name": "Sakura Quest",
+              "img": "img/drama/sakuraquest.jpg",
+              "place": "5"
+            },
+            {
+              "name": "Saekano S2",
+              "img": "img/drama/saekano.jpg",
+              "place": "6"
+            }
+          ]
+        },
+        {
+          "name": "Best Romance Anime",
+          "public": [
+            {
+              "name": "Tsuki ga Kirei",
+              "img": "img/romance/tsukiga.jpg",
+              "place": "1"
+            },
+            {
+              "name": "Tsurezure Children",
+              "img": "img/romance/tsurezure.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Net-juu no Susume",
+              "img": "img/romance/netjuu.jpg",
+              "place": "3"
+            },
+            {
+              "name": "Kuzu no Honkai",
+              "img": "img/romance/kuzu.jpg",
+              "place": "4"
+            },
+            {
+              "name": "Just Because",
+              "img": "img/romance/justbecause.jpg",
+              "place": "5"
+            },
+            {
+              "name": "10 cm Datta",
+              "img": "img/romance/anini.jpg",
+              "place": "6"
+            }
+          ],
+          "jury": [
+            {
+              "name": "Tsuki ga Kirei",
+              "img": "img/romance/tsukiga.jpg",
+              "place": "1"
+            },
+            {
+              "name": "Tsurezure Children",
+              "img": "img/romance/tsurezure.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Kuzu no Honkai",
+              "img": "img/romance/kuzu.jpg",
+              "place": "3"
+            },
+            {
+              "name": "Net-juu no Susume",
+              "img": "img/romance/netjuu.jpg",
+              "place": "4"
+            },
+            {
+              "name": "Just Because",
+              "img": "img/romance/justbecause.jpg",
+              "place": "5"
+            },
+            {
+              "name": "10 cm Datta",
+              "img": "img/romance/anini.jpg",
+              "place": "6"
+            }
+          ]
+        },
+        {
+          "name": "Best Slice of Life Anime",
+          "public": [
+            {
+              "name": "Miss Kobayashi's Dragon Maid",
+              "img": "img/sol/dragonmaid.jpg",
+              "place": "1"
+            },
+            {
+              "name": "Girls' Last Tour",
+              "img": "img/sol/glt.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Demi-chan wa Kataritai",
+              "img": "img/sol/demichan.jpg",
+              "place": "3"
+            },
+            {
+              "name": "New Game!!",
+              "img": "img/sol/newgame2.jpg",
+              "place": "4"
+            },
+            {
+              "name": "Konohana Kitan",
+              "img": "img/sol/konohana.jpg",
+              "place": "5"
+            },
+            {
+              "name": "Urara Meirochou",
+              "img": "img/sol/urara.jpg",
+              "place": "6"
+            }
+          ],
+          "jury": [
+            {
+              "name": "Girls' Last Tour",
+              "img": "img/sol/glt.jpg",
+              "place": "1"
+            },
+            {
+              "name": "New Game!!",
+              "img": "img/sol/newgame2.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Urara Meirochou",
+              "img": "img/sol/urara.jpg",
+              "place": "3"
+            },
+            {
+              "name": "Konohana Kitan",
+              "img": "img/sol/konohana.jpg",
+              "place": "4"
+            },
+            {
+              "name": "Miss Kobayashi's Dragon Maid",
+              "img": "img/sol/dragonmaid.jpg",
+              "place": "5"
+            },
+            {
+              "name": "Demi-chan wa Kataritai",
+              "img": "img/sol/demichan.jpg",
+              "place": "6"
+            }
+          ]
+        },
+        {
+          "name": "Best Thriller/Mystery Anime",
+          "public": [
+            {
+              "name": "Princess Principal",
+              "img": "img/thriller/prpr.jpg",
+              "place": "1"
+            },
+            {
+              "name": "ACCA-13",
+              "img": "img/thriller/acca13.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Inuyashiki",
+              "img": "img/thriller/inuyashiki.jpg",
+              "place": "3"
+            },
+            {
+              "name": "Kakegurui",
+              "img": "img/thriller/kakegurui.jpg",
+              "place": "4"
+            },
+            {
+              "name": "The Kubikiri Cycle",
+              "img": "img/thriller/kubikiri.jpg",
+              "place": "5"
+            },
+            {
+              "name": "Kado: The Right Answer",
+              "img": "img/thriller/kada.jpg",
+              "place": "6"
+            }
+          ],
+          "jury": [
+            {
+              "name": "The Kubikiri Cycle",
+              "img": "img/thriller/kubikiri.jpg",
+              "place": "1"
+            },
+            {
+              "name": "ACCA-13",
+              "img": "img/thriller/acca13.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Princess Principal",
+              "img": "img/thriller/prpr.jpg",
+              "place": "3"
+            },
+            {
+              "name": "Kado: The Right Answer",
+              "img": "img/thriller/kada.jpg",
+              "place": "4"
+            },
+            {
+              "name": "Kakegurui",
+              "img": "img/thriller/kakegurui.jpg",
+              "place": "5"
+            },
+            {
+              "name": "Inuyashiki",
+              "img": "img/thriller/inuyashiki.jpg",
+              "place": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Character Awards",
+      "categories": [
+        {
+          "name": "Best Dramatic Main Character",
+          "public": [
+            {
+              "name": "Phosphopphylite",
+              "img": "img/dramaticmain/phos.jpg",
+              "place": "1"
+            },
+            {
+              "name": "Shouko Nishimiya",
+              "img": "img/dramaticmain/shouko.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Yakumo Yuurakutei",
+              "img": "img/dramaticmain/yakumo.jpg",
+              "place": "3"
+            },
+            {
+              "name": "Rei Kiriyama",
+              "img": "img/dramaticmain/rei.jpg",
+              "place": "3"
+            },
+            {
+              "name": "Koyomi Araragi",
+              "img": "img/dramaticmain/araragi.jpg",
+              "place": "5"
+            },
+            {
+              "name": "Suzu Urano",
+              "img": "img/dramaticmain/suzu.jpg",
+              "place": "6"
+            }
+          ],
+          "jury": [
+            {
+              "name": "Yakumo Yuurakutei",
+              "img": "img/dramaticmain/yakumo.jpg",
+              "place": "1"
+            },
+            {
+              "name": "Rei Kiriyama",
+              "img": "img/dramaticmain/rei.jpg",
+              "place": "2"
+            },
+            {
+              "name": "Koyomi Araragi",
+              "img": "img/dramaticmain/araragi.jpg",
+              "place": "3"
+            },
+            {
+              "name": "Phosphopphylite",
+              "img": "img/dramaticmain/phos.jpg",
+              "place": "4"
+            },
+            {
+              "name": "Suzu Urano",
+              "img": "img/dramaticmain/suzu.jpg",
+              "place": "5"
+            },
+            {
+              "name": "Shouko Nishimiya",
+              "img": "img/dramaticmain/shouko.jpg",
+              "place": "6"
+            }
+          ],
+          "hms": [
+            {
+              "name": "Hanabi Yasaruoka"
+            },
+            {
+              "name": "Shouya Ishida"
+            }
+          ]
+        },
+        {
+          "name": "Best Dramatic Supporting Character",
+          "public": [
+            {
+              "name": "Nanachi",
+              "img": "",
+              "place": "1"
+            },
+            {
+              "name": "Kai Shimada",
+              "img": "",
+              "place": "2"
+            },
+            {
+              "name": "Antarcticite",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Yuzuru Nishimiya",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Konatsu",
+              "img": "",
+              "place": "5"
+            },
+            {
+              "name": "Kyouko Kouda",
+              "img": "",
+              "place": "6"
+            }
+          ],
+          "jury": [
+            {
+              "name": "Kai Shimada",
+              "img": "",
+              "place": "1"
+            },
+            {
+              "name": "Konatsu",
+              "img": "",
+              "place": "2"
+            },
+            {
+              "name": "Kyouko Kouda",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Yuzuru Nishimiya",
+              "img": "",
+              "place": "4"
+            },
+            {
+              "name": "Nanachi",
+              "img": "",
+              "place": "5"
+            },
+            {
+              "name": "Antarcticite",
+              "img": "",
+              "place": "6"
+            }
+          ],
+          "hms": [
+            {
+              "name": "Benten"
+            },
+            {
+              "name": "Ursula Callistes"
+            }
+          ]
+        },
+        {
+          "name": "Best Comedic Main Character",
+          "public": [
+            {
+              "name": "Kazuma",
+              "img": "",
+              "place": "1"
+            },
+            {
+              "name": "Megumin",
+              "img": "",
+              "place": "2"
+            },
+            {
+              "name": "Akko Kagari",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Aqua",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Yuuri",
+              "img": "",
+              "place": "5"
+            },
+            {
+              "name": "Kukuri",
+              "img": "",
+              "place": "6"
+            }
+          ],
+          "jury": [
+            {
+              "name": "Kukuri",
+              "img": "",
+              "place": "1"
+            },
+            {
+              "name": "Aqua",
+              "img": "",
+              "place": "2"
+            },
+            {
+              "name": "Kazuma",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Akko Kagari",
+              "img": "",
+              "place": "4"
+            },
+            {
+              "name": "Yuuri",
+              "img": "",
+              "place": "5"
+            },
+            {
+              "name": "Megumin",
+              "img": "",
+              "place": "6"
+            }
+          ],
+          "hms": [
+            {
+              "name": "Otome"
+            }
+          ]
+        },
+        {
+          "name": "Best Comedic Supporting Character",
+          "public": [
+            {
+              "name": "Yunyun",
+              "img": "",
+              "place": "1"
+            },
+            {
+              "name": "Fafnir",
+              "img": "",
+              "place": "2"
+            },
+            {
+              "name": "Nikaidou Harunobu",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Nene Sakura",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Hideri Kanzaki",
+              "img": "",
+              "place": "5"
+            },
+            {
+              "name": "Juju",
+              "img": "",
+              "place": "6"
+            }
+          ],
+          "jury": [
+            {
+              "name": "Nikaidou Harunobu",
+              "img": "",
+              "place": "1"
+            },
+            {
+              "name": "Juju",
+              "img": "",
+              "place": "2"
+            },
+            {
+              "name": "Hideri Kanzaki",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Nene Sakura",
+              "img": "",
+              "place": "4"
+            },
+            {
+              "name": "Fafnir",
+              "img": "",
+              "place": "5"
+            },
+            {
+              "name": "Yunyun",
+              "img": "",
+              "place": "6"
+            }
+          ],
+          "hms": [
+            {
+              "name": "Konoha Hoshinomori"
+            },
+            {
+              "name": "Gakuensai Jimukyokuchou"
+            },
+			{
+              "name": "Raid"
+            }
+          ]
+        },
+        {
+          "name": "Best Antagonist",
+          "public": [
+            {
+              "name": "Stain",
+              "img": "",
+              "place": "1"
+            },
+            {
+              "name": "Ougi Oshino",
+              "img": "",
+              "place": "2"
+            },
+            {
+              "name": "Bondrewd",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Akane Minagawa",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Rastal Elion",
+              "img": "",
+              "place": "5"
+            },
+            {
+              "name": "Saint Germaine",
+              "img": "",
+              "place": "6"
+            }
+          ],
+          "jury": [
+            {
+              "name": "Ougi Oshino",
+              "img": "",
+              "place": "1"
+            },
+            {
+              "name": "Akane Minagawa",
+              "img": "",
+              "place": "2"
+            },
+            {
+              "name": "Stain",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Rastall Elion",
+              "img": "",
+              "place": "4"
+            },
+            {
+              "name": "Saint Germaine",
+              "img": "",
+              "place": "5"
+            },
+            {
+              "name": "Bondrewd",
+              "img": "",
+              "place": "6"
+            }
+          ],
+          "hms": [
+            {
+              "name": "Utsuro"
+            },
+            {
+              "name": "Kamui"
+            },
+			{
+              "name": "Cagliostro"
+            }
+          ]
+        },
+        {
+          "name": "Best Ensemble",
+          "public": [
+            {
+              "name": "KonoSuba 2",
+              "img": "",
+              "place": "1"
+            },
+            {
+              "name": "Houseki no Kuni",
+              "img": "",
+              "place": "2"
+            },
+            {
+              "name": "My Hero Academia 2",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "3-gatsu no Lion",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Princess Principal",
+              "img": "",
+              "place": "5"
+            },
+            {
+              "name": "Sakura Quest",
+              "img": "",
+              "place": "6"
+            }
+          ],
+          "jury": [
+            {
+              "name": "Princess Principal",
+              "img": "",
+              "place": "1"
+            },
+            {
+              "name": "Sakura Quest",
+              "img": "",
+              "place": "2"
+            },
+            {
+              "name": "My Hero Academia",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Houseki no Kuni",
+              "img": "",
+              "place": "4"
+            },
+            {
+              "name": "3-gatsu no Lion",
+              "img": "",
+              "place": "5"
+            },
+            {
+              "name": "KonoSuba 2",
+              "img": "",
+              "place": "6"
+            }
+          ],
+          "hms": [
+            {
+              "name": "Miss Kobayashi's Maid Dragon"
+            },
+            {
+              "name": "Little Witch Academia"
+            },
+			{
+              "name": "Kekkai Sensen & Beyond"
+            },
+			{
+              "name": "New Game!!"
+            }
+          ]
+        },
 		{
-			"name": "Genre Awards",
-			"categories":[
-				{
-					"name": "Best Action",
-					"public": [
-						{
-							"name": "My Hero Academia",
-							"img": "img/action/bnhas2.jpg",
-							"place": "1"
-						},
-						{
-							"name": "Attack on Titan Season 2",
-							"img": "img/action/snks2.jpg",
-							"place": "2"
-						},
-						{
-							"name": "Youjo Senki",
-							"img": "img/action/youjosenki.jpg",
-							"place": "3"
-						},
-						{
-							"name": "Kekkai Sensen & Beyond",
-							"img": "img/action/bbbb.jpg",
-							"place": "4"
-						},
-						{
-							"name": "Re:Creators",
-							"img": "img/action/recreators.jpg",
-							"place": "5"
-						},
-						{
-							"name": "The Dragon Dentist",
-							"img": "img/action/dragondentist.jpg",
-							"place": "6"
-						}
-					],
-					"jury": [
-						{
-							"name": "My Hero Academia",
-							"img": "img/action/bnhas2.jpg",
-							"place": "1"
-						},
-						{
-							"name": "Youjo Senki",
-							"img": "img/action/youjosenki.jpg",
-							"place": "2"
-						},
-						{
-							"name": "Kekkai Sensen & Beyond",
-							"img": "img/action/bbbb.jpg",
-							"place": "3"
-						},
-						{
-							"name": "The Dragon Dentist",
-							"img": "img/action/dragondentist.jpg",
-							"place": "4"
-						},
-						{
-							"name": "Attack on Titan Season 2",
-							"img": "img/action/snks2.jpg",
-							"place": "5"
-						},
-						{
-							"name": "Re:Creators",
-							"img": "img/action/recreators.jpg",
-							"place": "6"
-						}
-					],
-					"hms" : [
-						{
-							"name": "Senki Zesshou Symphogear AXZ"
-						}
-					]
-				},
-				{
-					"name": "Best Adventure",
-					"public": [
-						{
-							"name": "Made in Abyss",
-							"img": "img/adventure/mia.jpg",
-							"place": "1"
-						},
-						{
-							"name": "Houseki no Kuni",
-							"img": "img/adventure/houseki.jpg",
-							"place": "2"
-						},
-						{
-							"name": "Little Witch Academia",
-							"img": "img/adventure/lwa.jpg",
-							"place": "3"
-						},
-						{
-							"name": "Kemono Friends",
-							"img": "img/adventure/kemofure.jpg",
-							"place": "4"
-						},
-						{
-							"name": "Kino's Journey 2017",
-							"img": "img/adventure/kino.jpg",
-							"place": "5"
-						},
-						{
-							"name": "Urahara",
-							"img": "img/adventure/urahara.jpg",
-							"place": "6"
-						}
-					],
-					"jury": [
-						{
-							"name": "Houseki no Kuni",
-							"img": "img/adventure/houseki.jpg",
-							"place": "1"
-						},
-						{
-							"name": "Made in Abyss",
-							"img": "img/adventure/mia.jpg",
-							"place": "2"
-						},
-						{
-							"name": "Kemono Friends",
-							"img": "img/adventure/kemofure.jpg",
-							"place": "3"
-						},
-						{
-							"name": "Little Witch Academia",
-							"img": "img/adventure/lwa.jpg",
-							"place": "4"
-						},
-						{
-							"name": "Urahara",
-							"img": "img/adventure/urahara.jpg",
-							"place": "5"
-						},
-						{
-							"name": "Kino's Journey 2017",
-							"img": "img/adventure/kino.jpg",
-							"place": "6"
-						}
-					]
-				},
-				{
-					"name": "Best Comedy",
-					"public": [
-						{
-							"name": "KonoSuba 2",
-							"img": "img/comedy/kono2ba.jpg",
-							"place": "1"
-						},
-						{
-							"name": "Gabriel DropOut",
-							"img": "img/comedy/gabdrop.jpg",
-							"place": "2"
-						},
-						{
-							"name": "Gamers!",
-							"img": "img/comedy/gamers.jpg",
-							"place": "3"
-						},
-						{
-							"name": "Mahoujin Guru Guru",
-							"img": "img/comedy/guruguru.jpg",
-							"place": "4"
-						},
-						{
-							"name": "Blend S",
-							"img": "img/comedy/blends.jpg",
-							"place": "5"
-						},
-						{
-							"name": "Ani ni Tsukeru",
-							"img": "img/comedy/anini.jpg",
-							"place": "6"
-						}
-					],
-					"jury": [
-						{
-							"name": "KonoSuba 2",
-							"img": "img/comedy/kono2ba.jpg",
-							"place": "1"
-						},
-						{
-							"name": "Mahoujin Guru Guru",
-							"img": "img/comedy/guruguru.jpg",
-							"place": "2"
-						},
-						{
-							"name": "Ani ni Tsukeru",
-							"img": "img/comedy/anini.jpg",
-							"place": "3"
-						},
-						{
-							"name": "Gamers!",
-							"img": "img/comedy/gamers.jpg",
-							"place": "4"
-						},
-						{
-							"name": "Gabriel DropOut",
-							"img": "img/comedy/gabdrop.jpg",
-							"place": "5"
-						},
-						{
-							"name": "Blend S",
-							"img": "img/comedy/blends.jpg",
-							"place": "6"
-						}
-					]
-				},
-				{
-					"name": "Best Drama",
-					"public": [
-						{
-							"name": "3-gatsu no Lion",
-							"img": "img/drama/3gatsu.jpg",
-							"place": "1"
-						},
-						{
-							"name": "Rakugo 2",
-							"img": "img/drama/rakugo2.jpg",
-							"place": "2"
-						},
-						{
-							"name": "Owarimonogatari 2",
-							"img": "img/drama/owari2.jpg",
-							"place": "2"
-						},
-						{
-							"name": "Sakura Quest",
-							"img": "img/drama/sakuraquest.jpg",
-							"place": "4"
-						},
-						{
-							"name": "Saekano S2",
-							"img": "img/drama/saekano.jpg",
-							"place": "5"
-						},
-						{
-							"name": "Uchouten Kazuku 2",
-							"img": "img/drama/uk2.jpg",
-							"place": "6"
-						}
-					],
-					"jury": [
-						{
-							"name": "Shouwa Genroku Rakugo Shinjuu 2",
-							"img": "img/drama/rakugo2.jpg",
-							"place": "1"
-						},
-						{
-							"name": "3-gatsu no Lion",
-							"img": "img/drama/3gatsu.jpg",
-							"place": "2"
-						},
-						{
-							"name": "Owarimonogatari 2",
-							"img": "img/drama/owari2.jpg",
-							"place": "3"
-						},
-						{
-							"name": "Uchouten Kazuku 2",
-							"img": "img/drama/gamers.jpg",
-							"place": "4"
-						},
-						{
-							"name": "Sakura Quest",
-							"img": "img/drama/sakuraquest.jpg",
-							"place": "5"
-						},
-						{
-							"name": "Saekano S2",
-							"img": "img/drama/saekano.jpg",
-							"place": "6"
-						}
-					]
-				},
-				{
-					"name": "Best Romance",
-					"public": [
-						{
-							"name": "Tsuki ga Kirei",
-							"img": "img/romance/tsukiga.jpg",
-							"place": "1"
-						},
-						{
-							"name": "Tsurezure Children",
-							"img": "img/romance/tsurezure.jpg",
-							"place": "2"
-						},
-						{
-							"name": "Net-juu no Susume",
-							"img": "img/romance/netjuu.jpg",
-							"place": "3"
-						},
-						{
-							"name": "Kuzu no Honkai",
-							"img": "img/romance/kuzu.jpg",
-							"place": "4"
-						},
-						{
-							"name": "Just Because",
-							"img": "img/romance/justbecause.jpg",
-							"place": "5"
-						},
-						{
-							"name": "10 cm Datta",
-							"img": "img/romance/anini.jpg",
-							"place": "6"
-						}
-					],
-					"jury": [
-						{
-							"name": "Tsuki ga Kirei",
-							"img": "img/romance/tsukiga.jpg",
-							"place": "1"
-						},
-						{
-							"name": "Tsurezure Children",
-							"img": "img/romance/tsurezure.jpg",
-							"place": "2"
-						},
-						{
-							"name": "Kuzu no Honkai",
-							"img": "img/romance/kuzu.jpg",
-							"place": "3"
-						},
-						{
-							"name": "Net-juu no Susume",
-							"img": "img/romance/netjuu.jpg",
-							"place": "4"
-						},
-						{
-							"name": "Just Because",
-							"img": "img/romance/justbecause.jpg",
-							"place": "5"
-						},
-						{
-							"name": "10 cm Datta",
-							"img": "img/romance/anini.jpg",
-							"place": "6"
-						}
-					]
-				},
-				{
-					"name": "Best Slice of Life",
-					"public": [
-						{
-							"name": "Miss Kobayashi's Dragon Maid",
-							"img": "img/sol/dragonmaid.jpg",
-							"place": "1"
-						},
-						{
-							"name": "Girls' Last Tour",
-							"img": "img/sol/glt.jpg",
-							"place": "2"
-						},
-						{
-							"name": "Demi-chan wa Kataritai",
-							"img": "img/sol/demichan.jpg",
-							"place": "3"
-						},
-						{
-							"name": "New Game!!",
-							"img": "img/sol/newgame2.jpg",
-							"place": "4"
-						},
-						{
-							"name": "Konohana Kitan",
-							"img": "img/sol/konohana.jpg",
-							"place": "5"
-						},
-						{
-							"name": "Urara Meirochou",
-							"img": "img/sol/urara.jpg",
-							"place": "6"
-						}
-					],
-					"jury": [
-						{
-							"name": "Girls' Last Tour",
-							"img": "img/sol/glt.jpg",
-							"place": "1"
-						},
-						{
-							"name": "New Game!!",
-							"img": "img/sol/newgame2.jpg",
-							"place": "2"
-						},
-						{
-							"name": "Urara Meirochou",
-							"img": "img/sol/urara.jpg",
-							"place": "3"
-						},
-						{
-							"name": "Konohana Kitan",
-							"img": "img/sol/konohana.jpg",
-							"place": "4"
-						},
-						{
-							"name": "Miss Kobayashi's Dragon Maid",
-							"img": "img/sol/dragonmaid.jpg",
-							"place": "5"
-						},
-						{
-							"name": "Demi-chan wa Kataritai",
-							"img": "img/sol/demichan.jpg",
-							"place": "6"
-						}
-					]
-				},
-				{
-					"name": "Best Thriller/Mystery",
-					"public": [
-						{
-							"name": "Princess Principal",
-							"img": "img/thriller/prpr.jpg",
-							"place": "1"
-						},
-						{
-							"name": "ACCA-13",
-							"img": "img/thriller/acca13.jpg",
-							"place": "2"
-						},
-						{
-							"name": "Inuyashiki",
-							"img": "img/thriller/inuyashiki.jpg",
-							"place": "3"
-						},
-						{
-							"name": "Kakegurui",
-							"img": "img/thriller/kakegurui.jpg",
-							"place": "4"
-						},
-						{
-							"name": "The Kubikiri Cycle",
-							"img": "img/thriller/kubikiri.jpg",
-							"place": "5"
-						},
-						{
-							"name": "Kado: The Right Answer",
-							"img": "img/thriller/kada.jpg",
-							"place": "6"
-						}
-					],
-					"jury": [
-						{
-							"name": "The Kubikiri Cycle",
-							"img": "img/thriller/kubikiri.jpg",
-							"place": "1"
-						},
-						{
-							"name": "ACCA-13",
-							"img": "img/thriller/acca13.jpg",
-							"place": "2"
-						},
-						{
-							"name": "Princess Principal",
-							"img": "img/thriller/prpr.jpg",
-							"place": "3"
-						},
-						{
-							"name": "Kado: The Right Answer",
-							"img": "img/thriller/kada.jpg",
-							"place": "4"
-						},
-						{
-							"name": "Kakegurui",
-							"img": "img/thriller/kakegurui.jpg",
-							"place": "5"
-						},
-						{
-							"name": "Inuyashiki",
-							"img": "img/thriller/inuyashiki.jpg",
-							"place": "6"
-						}
-					]
-				}
-			]
-		},
+          "name": "Best Male VA",
+          "public": [
+            {
+              "name": "Jun Fukushima as Kazuma",
+              "img": "",
+              "place": "1"
+            },
+            {
+              "name": "Akira Ishida as Yakumo",
+              "img": "",
+              "place": "2"
+            },
+            {
+              "name": "Hiroshi Kamiya as Araragi",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Irino Miyu as Shouya",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Keno Kawashima as Rei",
+              "img": "",
+              "place": "5"
+            },
+            {
+              "name": "Tomokazu Seki as Yotaro",
+              "img": "",
+              "place": "6"
+            }
+          ],
+          "jury": [
+            {
+              "name": "Akira Ishida as Yakumo",
+              "img": "",
+              "place": "1"
+            },
+            {
+              "name": "Tomokazu Seki as Yotaro",
+              "img": "",
+              "place": "2"
+            },
+            {
+              "name": "Hiroshi Kamiya as Araragi",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Jun Fukushima as Kazuma",
+              "img": "",
+              "place": "4"
+            },
+            {
+              "name": "Kengo Kawanishi as Rei",
+              "img": "",
+              "place": "5"
+            },
+            {
+              "name": "Irino Miyu as Shouya",
+              "img": "",
+              "place": "6"
+            }
+          ],
+          "hms": [
+            {
+              "name": "Shinichiro Miki as Kai"
+            },
+            {
+              "name": "Yuki Kaji as Kuga"
+            },
+			{
+              "name": "Nobuhiko Okamoto as Bakugou"
+            },
+			{
+              "name": "Takahiro Sakurai as Yasaburo"
+            }
+          ]
+        },
 		{
-			"name": "Production Awards"
-		},
-		{
-			"name": "Main Awards"
-		}
-	]
+          "name": "Best Female VA",
+          "public": [
+            {
+              "name": "Saori Hayami as Shouko",
+              "img": "",
+              "place": "1"
+            },
+            {
+              "name": "Tomoyo Kurosawa as Phos",
+              "img": "",
+              "place": "2"
+            },
+            {
+              "name": "Aoi Yuuki as Tanya",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Yuu Kobayashi as Konatsu",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Chika Anzai as Hanabi",
+              "img": "",
+              "place": "5"
+            },
+            {
+              "name": "Kana Hanazawa as Otome",
+              "img": "",
+              "place": "6"
+            }
+          ],
+          "jury": [
+            {
+              "name": "Yuu Kobayashi as Konatsu",
+              "img": "",
+              "place": "1"
+            },
+            {
+              "name": "Tomoyo Kurosawa as Phos",
+              "img": "",
+              "place": "2"
+            },
+            {
+              "name": "Aoi Yuuki as Tanya",
+              "img": "",
+              "place": "3"
+            },
+            {
+              "name": "Saori Hayami as Shouko",
+              "img": "",
+              "place": "4"
+            },
+            {
+              "name": "Kana Hanazawa as Otome",
+              "img": "",
+              "place": "5"
+            },
+            {
+              "name": "Chika Anzai as Hanabi",
+              "img": "",
+              "place": "6"
+            }
+          ],
+          "hms": [
+            {
+              "name": "Marina Inoue as Kyouko"
+            },
+            {
+              "name": "Mamiko Noto as Benten"
+            },
+			{
+              "name": "Sora Amamiya as Aqua"
+            },
+			{
+              "name": "Megumi Han as Akko"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Production Awards"
+    }
+  ]
 }
