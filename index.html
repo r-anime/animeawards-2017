@@ -9,6 +9,7 @@
 			src="https://code.jquery.com/jquery-3.3.1.min.js"
 			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
 	    <link rel="stylesheet" href="style.css">
 	</head>
@@ -16,503 +17,55 @@
 		<header>
 			<h1>/r/an<img class="headerSnoo" src="img/reddit.png">me Awards 2017</h1>
 		</header>
-		<div id="contentBody">
-			<h2 id="genreAwards" class="subHeading">
-				Genre Awards
-			</h2>
-			<div class="rankingContainer">
-				<h3 class="catHeading">
-					Best Action Anime
-				</h3>
-				<div class="ranking ranking6 rankingPublic">
-					<h4 class="groupHeadingContainer"><span class="publicHeading">Public Pick</span></h4>
-					<div class="result" style="background-image: url('img/action/bnhas2.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									Boku no Hero Academia
+		<div id="contentBody" ng-app="aniwardsApp" ng-controller="aniwardsController">
+			<div ng-repeat="award in awards">
+				<h2 id="genreAwards" class="subHeading">
+					{{award.name}}
+				</h2>
+				<div class="rankingContainer" ng-repeat="category in award.categories">
+					<h3 class="catHeading">
+						{{category.name}}
+					</h3>
+					<div class="ranking ranking{{category.public.length}} rankingPublic">
+						<h4 class="groupHeadingContainer"><span class="publicHeading" onclick="publicButtonClick(this);">Public Pick</span></h4>
+							<div class="result" ng-repeat="result in category.public" style="background-image: url('{{result.img}}');">
+								<div class="title">
+									<div class="showTitle">
+										<div class="centerTitle" ng-if="result.name.length < 12">
+											{{result.name}}
+										</div>
+										<div class="centerTitle smallTitle" ng-if="result.name.length >= 12">
+											{{result.name}}
+										</div>
+									</div>
+									<span class="placing">{{result.place}}</span>
 								</div>
 							</div>
-							<span class="placing">1</span>
-						</div>
+						<div class="clear"></div>
 					</div>
-					<div class="result" style="background-image: url('img/action/snks2.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Attack on Titan Season 2
+					<div class="ranking ranking{{category.jury.length}} rankingJury">
+						<h4 class="groupHeadingContainer"><span class="juryHeading" onclick="juryButtonClick(this);">Jury Pick</span></h4>
+						<div class="result" ng-repeat="result in category.jury" style="background-image: url('{{result.img}}');">
+								<div class="title">
+									<div class="showTitle">
+										<div class="centerTitle" ng-if="result.name.length < 12">
+											{{result.name}}
+										</div>
+										<div class="centerTitle smallTitle" ng-if="result.name.length >= 12">
+											{{result.name}}
+										</div>
+									</div>
+									<span class="placing">{{result.place}}</span>
 								</div>
 							</div>
-							<span class="placing">2</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/youjosenki.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									Youjo Senki
-								</div>
-							</div>
-							<span class="placing">3</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/bbbb.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Kekkai Sensen & Beyond
-								</div>
-							</div>
-							<span class="placing">4</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/recreators.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Re:Creators
-								</div>
-							</div>
-							<span class="placing">5</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/dragondentist.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									The Dragon Dentist
-								</div>
-							</div>
-							<span class="placing">6</span>
-						</div>
+						<div class="clear"></div>
 					</div>
 					<div class="clear"></div>
 				</div>
-				<div class="ranking ranking6 rankingJury">
-					<h4 class="groupHeadingContainer"><span class="juryHeading">Jury Pick</span></h4>
-					<div class="result" style="background-image: url('img/action/bnhas2.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									Boku no Hero Academia
-								</div>
-							</div>
-							<span class="placing">1</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/youjosenki.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									Youjo Senki
-								</div>
-							</div>
-							<span class="placing">2</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/bbbb.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Kekkai Sensen & Beyond
-								</div>
-							</div>
-							<span class="placing">3</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/dragondentist.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									The Dragon Dentist
-								</div>
-							</div>
-							<span class="placing">4</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/snks2.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Attack on Titan Season 2
-								</div>
-							</div>
-							<span class="placing">5</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/recreators.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									Re:Creators
-								</div>
-							</div>
-							<span class="placing">6</span>
-						</div>
-					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="clear"></div>
 			</div>
-
-			<div class="rankingContainer">
-				<h3 class="catHeading">
-					Best Adventure Anime
-				</h3>
-				<div class="ranking ranking6 rankingPublic">
-					<h4 class="groupHeadingContainer"><span class="publicHeading">Public Pick</span></h4>
-					<div class="result" style="background-image: url('img/adventure/mia.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									Made in Abyss
-								</div>
-							</div>
-							<span class="placing">1</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/adventure/houseki.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Houseki no Kuni
-								</div>
-							</div>
-							<span class="placing">2</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/adventure/lwa.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Little Witch Academia
-								</div>
-							</div>
-							<span class="placing">3</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/adventure/kemofure.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Kemono Friends
-								</div>
-							</div>
-							<span class="placing">4</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/adventure/kino.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Kino's Journey 2017
-								</div>
-							</div>
-							<span class="placing">5</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/adventure/urahara.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Urahara
-								</div>
-							</div>
-							<span class="placing">6</span>
-						</div>
-					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="ranking ranking6 rankingJury">
-					<h4 class="groupHeadingContainer"><span class="juryHeading">Jury Pick</span></h4>
-					<div class="result" style="background-image: url('img/adventure/houseki.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									Land of the Lustrous
-								</div>
-							</div>
-							<span class="placing">1</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/adventure/mia.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									MIA
-								</div>
-							</div>
-							<span class="placing">2</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/adventure/kemofure.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Kemono Friends
-								</div>
-							</div>
-							<span class="placing">3</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/adventure/lwa.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Little Witch Academia
-								</div>
-							</div>
-							<span class="placing">4</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/adventure/urahara.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									Urahara
-								</div>
-							</div>
-							<span class="placing">5</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/adventure/kino.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Kino's Journey 2017
-								</div>
-							</div>
-							<span class="placing">6</span>
-						</div>
-					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<h2 id="productionAwards" class="subHeading">
-				Production Awards
-			</h2>
-			
-			<div class="rankingContainer">
-				<h3 class="catHeading">
-					Best Opening (OP)
-				</h3>
-				<div class="ranking ranking10 rankingPublic">
-					<h4 class="groupHeadingContainer"><span class="publicHeading">Public Pick</span></h4>
-					<div class="result" style="background-image: url('img/action/bnhas2.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									Aozora no Rhapsody
-								</div>
-							</div>
-							<span class="placing">1</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/snks2.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									The Other Side of the Wall
-								</div>
-							</div>
-							<span class="placing">2</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/youjosenki.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									Ugoku, Ugoku
-								</div>
-							</div>
-							<span class="placing">3</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/bbbb.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Imawa no Shinigami
-								</div>
-							</div>
-							<span class="placing">4</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/recreators.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									Peace Sign
-								</div>
-							</div>
-							<span class="placing">5</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/dragondentist.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Deal With the Devil
-								</div>
-							</div>
-							<span class="placing">6</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/dragondentist.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Dark Cherry Mystery
-								</div>
-							</div>
-							<span class="placing">7</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/dragondentist.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Deep in the Abyss 
-								</div>
-							</div>
-							<span class="placing">8</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/dragondentist.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Flag Wo Tatero
-								</div>
-							</div>
-							<span class="placing">9</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/dragondentist.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									Don't
-								</div>
-							</div>
-							<span class="placing">10</span>
-						</div>
-					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="ranking ranking10 rankingJury">
-					<h4 class="groupHeadingContainer"><span class="juryHeading">Jury Pick</span></h4>
-					<div class="result" style="background-image: url('img/action/bnhas2.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									Imawa no Shinigami
-								</div>
-							</div>
-							<span class="placing">1</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/snks2.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									Ugoku, Ugoku
-								</div>
-							</div>
-							<span class="placing">2</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/youjosenki.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Deal With the Devil
-								</div>
-							</div>
-							<span class="placing">3</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/bbbb.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Flag Wo Tatero
-								</div>
-							</div>
-							<span class="placing">4</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/recreators.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Dark Cherry Mystery
-								</div>
-							</div>
-							<span class="placing">5</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/dragondentist.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Aozora no Rhapsody
-								</div>
-							</div>
-							<span class="placing">6</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/dragondentist.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									Don't
-								</div>
-							</div>
-							<span class="placing">7</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/dragondentist.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									The Other Side of the Wall
-								</div>
-							</div>
-							<span class="placing">8</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/dragondentist.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle">
-									Peace Sign
-								</div>
-							</div>
-							<span class="placing">9</span>
-						</div>
-					</div>
-					<div class="result" style="background-image: url('img/action/dragondentist.jpg');">
-						<div class="title">
-							<div class="showTitle">
-								<div class="centerTitle smallTitle">
-									Deep in the Abyss
-								</div>
-							</div>
-							<span class="placing">10</span>
-						</div>
-					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="clear"></div>
-			</div>
-			
-			<h2 id="productionAwards" class="subHeading">
-				Main Awards
-			</h2>
 		</div>
 		<footer></footer>
+		<script src="awardsdata.js"></script>
 		<script src="responsive.js"></script>
 	</body>
 </html>

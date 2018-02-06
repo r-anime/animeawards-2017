@@ -217,6 +217,10 @@ header img.headerSnoo{
 	background: rgba( 0, 0, 0, 0.8);
 }
 
+.rankingContainer .result:nth-of-type(1) .title .centerTitle.smallTitle{
+	font-size: 32px;
+}
+
 .rankingContainer .result:nth-of-type(1) .title .placing{
 	font-weight: 400;
 	font-size: 24px;
