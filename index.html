@@ -18,6 +18,7 @@
 			<h1>/r/an<img class="headerSnoo" src="img/reddit.png">me Awards 2017</h1>
 			<nav>
 				<ul>
+					<li><a href="#">Intro</a></li>
 					<li ng-repeat="award in awards">
 						<a href="#award-{{$index}}">{{award.name}}</a>
 					</li>
@@ -25,11 +26,21 @@
 			</nav>
 		</header>
 		<div id="contentBody">
+			<div id="intro">
+				<h2 class="subHeading">Introduction</h2>
+				<p class="blurb">This is a community run whatever the heck man
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+				sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+				magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+				quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+				ut aliquip ex ea commodo consequat.</p>
+				<p class="blurb">This is another paragraph wheeeeeee. @board give me things to put here</p>
+			</div>
 			<div ng-repeat="award in awards">
 				<h2 id="award-{{$index}}" class="subHeading">
 					{{award.name}}
 				</h2>
-				<p class="awardBlurb">
+				<p class="blurb">
 					{{award.blurb}}
 				</p>
 				<div class="rankingContainer" ng-repeat="category in award.categories">

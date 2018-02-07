@@ -74,9 +74,11 @@ header a:hover {
 	font-size: 36px;
 	font-weight: 200;
 }
-.awardBlurb {
+
+.blurb {
+	max-width: 800px;
 	text-align: center;
-	margin: 20px 0 30px;
+	margin: 20px auto 30px;
 }
 
 .catHeading {
