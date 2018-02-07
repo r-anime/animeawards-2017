@@ -518,7 +518,7 @@ var stuff = {
           "name": "Best Dramatic Main Character",
           "public": [
             {
-              "name": "Phosphopphylite",
+              "name": "Phosphophylite",
               "img": "img/maindramatic/phos.jpg",
               "place": "1"
             },
@@ -565,7 +565,7 @@ var stuff = {
               "place": "3"
             },
             {
-              "name": "Phosphopphylite",
+              "name": "Phosphophylite",
               "img": "img/maindramatic/phos.jpg",
               "place": "4"
             },
@@ -824,7 +824,7 @@ var stuff = {
             },
             {
               "name": "Ougi Oshino",
-              "img": "img/antagonist/ougi.jpg",
+              "img": "img/antagonist/ougi2.jpg",
               "place": "2"
             },
             {
@@ -851,7 +851,7 @@ var stuff = {
           "jury": [
             {
               "name": "Ougi Oshino",
-              "img": "img/antagonist/ougi.jpg",
+              "img": "img/antagonist/ougi2.jpg",
               "place": "1"
             },
             {
@@ -1629,6 +1629,9 @@ var stuff = {
 				},
 				{
 				  "name": "Princess Principal"
+				},
+				{
+				  "name": "Uchouten Kazoku 2"
 				}
 			  ]
 			},

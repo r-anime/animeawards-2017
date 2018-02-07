@@ -8,4 +8,11 @@ app.controller('aniwardsController', function($scope, $http) {
 	// });
 	$scope.awards = stuff.awards;
 	$scope.$broadcast('dataloaded');
+	
+	$scope.scrollTo = function (aid){
+		var aTag = $("#award-"+ aid);
+		$('html,body').animate({scrollTop: aTag.offset().top}, 400);
+		
+		return false;
+	};
 });

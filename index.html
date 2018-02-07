@@ -18,9 +18,9 @@
 			<h1>/r/an<img class="headerSnoo" src="img/reddit.png">me Awards 2017</h1>
 			<nav>
 				<ul>
-					<li><a href="#">Intro</a></li>
+					<li><a href="#" onclick="$('html,body').animate({scrollTop: 0}, 400); return false;">Intro</a></li>
 					<li ng-repeat="award in awards">
-						<a href="#award-{{$index}}">{{award.name}}</a>
+						<a href="#award-{{$index}}" ng-click="scrollTo($index)">{{award.name}}</a>
 					</li>
 				</ul>
 			</nav>
@@ -95,7 +95,9 @@
 				</div>
 			</div>
 		</div>
-		<footer></footer>
+		<footer>
+			<h2>Special thanks to the mods, volunteers, and community from <a href="https://reddit.com/r/anime">r/anime</a>!</h2>
+		</footer>
 		<script src="awards.js"></script>
 		<script src="awardsdata.js"></script>
 		<script src="responsive.js"></script>

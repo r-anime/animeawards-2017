@@ -280,7 +280,7 @@ header a:hover {
 	left: 8px;
 }
 
-/*Honorable Mentions*/
+/* Honorable Mentions */
 .hmContainer {
 	margin-top: 20px;
 }
@@ -298,6 +298,21 @@ header a:hover {
 .hmContainer ul li{
 	text-align: center;
 	text-decoration: none;
+}
+
+/* Footer */
+footer{
+	margin-top: 70px;
+	background-color: #6a9de6;
+	text-align: center;
+	position: relative;
+	padding: 12px;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+	font-weight: 400;
 }
 
 
