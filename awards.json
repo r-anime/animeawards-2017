@@ -152,7 +152,7 @@
           "public": [
             {
               "name": "KonoSuba 2",
-              "img": "img/comedy/kono2ba.jpg",
+              "img": "img/comedy/kono2ba.png",
               "place": "1"
             },
             {
@@ -162,7 +162,7 @@
             },
             {
               "name": "Gamers!",
-              "img": "img/comedy/gamers.jpg",
+              "img": "img/comedy/gamers.png",
               "place": "3"
             },
             {
@@ -184,7 +184,7 @@
           "jury": [
             {
               "name": "KonoSuba 2",
-              "img": "img/comedy/kono2ba.jpg",
+              "img": "img/comedy/kono2ba.png",
               "place": "1"
             },
             {
@@ -199,7 +199,7 @@
             },
             {
               "name": "Gamers!",
-              "img": "img/comedy/gamers.jpg",
+              "img": "img/comedy/gamers.png",
               "place": "4"
             },
             {
@@ -252,7 +252,7 @@
             },
             {
               "name": "Uchouten Kazuku 2",
-              "img": "img/drama/uk2.jpg",
+              "img": "img/drama/uk2.png",
               "place": "6"
             }
           ],
@@ -274,7 +274,7 @@
             },
             {
               "name": "Uchouten Kazuku 2",
-              "img": "img/drama/uk2.jpg",
+              "img": "img/drama/uk2.png",
               "place": "4"
             },
             {
@@ -1326,59 +1326,59 @@
 				},
 				{
 				  "name": "Houseki no Kuni",
-				  "img": "img/artstle/houseki.jpg",
+				  "img": "img/bgart/houseki.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Girls' Last Tour",
-				  "img": "img/artstle/glt.jpg",
+				  "img": "img/bgart/glt.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "Uchouten Kazoku 2",
-				  "img": "img/artstle/uk2.jpg",
+				  "img": "img/bgart/uk2.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "Children of the Whales",
-				  "img": "img/artstle/whales.jpg",
+				  "img": "img/bgart/whales.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Minami Kamakura",
-				  "img": "img/artstle/minamik.jpg",
+				  "img": "img/bgart/minamik.jpg",
 				  "place": "6"
 				}
 			  ],
 			  "jury": [
 				{
 				  "name": "Uchouten Kazoku 2",
-				  "img": "img/artstle/uk2.jpg",
+				  "img": "img/bgart/uk2.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Children of the Whales",
-				  "img": "img/artstle/whales.jpg",
+				  "img": "img/bgart/whales.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Made in Abyss",
-				  "img": "img/artstle/mia.jpg",
+				  "img": "img/bgart/mia.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "Minami Kamakura",
-				  "img": "img/artstle/minamik.jpg",
+				  "img": "img/bgart/minamik.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "Girls' Last Tour",
-				  "img": "img/artstle/glt.jpg",
+				  "img": "img/bgart/glt.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Houseki no Kuni",
-				  "img": "img/artstle/houseki.jpg",
+				  "img": "img/bgart/houseki.jpg",
 				  "place": "6"
 				}
 			  ],
@@ -1663,7 +1663,7 @@
 				},
 				{
 				  "name": "Dark Cherry Mystery",
-				  "img": "img/op/darkcherry.png",
+				  "img": "img/op/darkcherry.jpg",
 				  "place": "7"
 				},
 				{
@@ -1694,7 +1694,7 @@
 				},
 				{
 				  "name": "Deal with the Devil",
-				  "img": "img/op/deal.png",
+				  "img": "img/op/dealwith.png",
 				  "place": "3"
 				},
 				{
@@ -1704,7 +1704,7 @@
 				},
 				{
 				  "name": "Dark Cherry Mystery",
-				  "img": "img/op/darkcherry.png",
+				  "img": "img/op/darkcherry.jpg",
 				  "place": "5"
 				},
 				{
@@ -1749,7 +1749,7 @@
 			  "public": [
 				{
 				  "name": "Heikousen",
-				  "img": "img/ed/heikousen.png",
+				  "img": "img/ed/heikousen.jpg",
 				  "place": "1"
 				},
 				{
@@ -1774,7 +1774,7 @@
 				},
 				{
 				  "name": "Freesia",
-				  "img": "img/ed/freesia.png",
+				  "img": "img/ed/freesia.jpg",
 				  "place": "6"
 				},
 				{
@@ -1805,7 +1805,7 @@
 				},
 				{
 				  "name": "Heikousen",
-				  "img": "img/ed/heikousen.png",
+				  "img": "img/ed/heikousen.jpg",
 				  "place": "2"
 				},
 				{
@@ -1835,7 +1835,7 @@
 				},
 				{
 				  "name": "Freesia",
-				  "img": "img/ed/freesia.png",
+				  "img": "img/ed/freesia.jpg",
 				  "place": "8"
 				},{
 				  "name": "Tabi no Hidarite",
@@ -1888,7 +1888,7 @@
 				},
 				{
 				  "name": "Teekyuu 9",
-				  "img": "img/shorts/teekyuu.jpg",
+				  "img": "img/shorts/teekyu.jpg",
 				  "place": "4"
 				},
 				{
@@ -1920,7 +1920,7 @@
 				},
 				{
 				  "name": "Teekyuu 9",
-				  "img": "img/shorts/teekyuu.jpg",
+				  "img": "img/shorts/teekyu.jpg",
 				  "place": "4"
 				},
 				{
@@ -2048,7 +2048,7 @@
 				},
 				{
 				  "name": "Konosuba 2",
-				  "img": "img/aoty/kono2ba.jpg",
+				  "img": "img/aoty/kono2ba.png",
 				  "place": "6"
 				},
 				{
@@ -2099,7 +2099,7 @@
 				},
 				{
 				  "name": "ACCA-13",
-				  "img": "img/aoty/acca13.jpg",
+				  "img": "img/aoty/acca.jpg",
 				  "place": "6"
 				},
 				{
@@ -2118,7 +2118,7 @@
 				},
 				{
 				  "name": "KonoSuba 2",
-				  "img": "img/aoty/kono2ba.jpg",
+				  "img": "img/aoty/kono2ba.png",
 				  "place": "10"
 				}
 			]
