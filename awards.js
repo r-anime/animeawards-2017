@@ -906,7 +906,7 @@ var stuff = {
               "place": "2"
             },
             {
-              "name": "My Hero Academia 2",
+              "name": "My Hero Academia",
               "img": "img/ensemble/bnha.jpg",
               "place": "3"
             },
@@ -1526,7 +1526,7 @@ var stuff = {
 				  "place": "4"
 				},
 				{
-				  "name": "My Hero Academia 2",
+				  "name": "My Hero Academia",
 				  "img": "img/chardesign/bnha.jpg",
 				  "place": "5"
 				},
