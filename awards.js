@@ -2126,7 +2126,7 @@ var stuff = {
 				{
 				  "name": "Girls' Last Tour",
 				  "img": "img/aoty/glt.jpg",
-				  "place": "3"
+				  "place": "4"
 				},
 				{
 				  "name": "Made in Abyss",
