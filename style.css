@@ -40,10 +40,12 @@ header img.headerSnoo{
 	margin: 0 -7px;
 }
 
-header nav {
+nav {
 	background: rgba(0,0,0,0.2);
+	position: sticky;
+	top: 0;
 }
-header ul {
+nav ul {
 	margin: 0 auto;
 	padding: 0;
 	display: flex;
@@ -51,16 +53,16 @@ header ul {
 	max-width: 800px;
 	justify-content: center;
 }
-header li {
+nav li {
 	list-style: none;
 }
-header a {
+nav a {
 	color: #FFF;
 	text-decoration: none;
 	display: block;
 	padding: 10px;
 }
-header a:hover {
+nav a:hover {
 	text-decoration: underline;
 }
 
@@ -76,9 +78,13 @@ header a:hover {
 }
 
 .blurb {
-	max-width: 800px;
-	text-align: center;
+	max-width: 700px;
+	text-align: justify;
 	margin: 20px auto 30px;
+	line-height: 1.5em;
+}
+.blurb b {
+	font-weight: 700;
 }
 
 .catHeading {
@@ -121,6 +127,7 @@ header a:hover {
 .rankingContainer .groupHeadingContainer span {
 	display: block;
 	padding: 8px 0 8px 10px;
+	font-weight: 400;
 }
 .rankingContainer .groupHeadingContainer span:after {
 	content: "";
@@ -133,18 +140,19 @@ header a:hover {
 }
 /*		Public Style */
 .rankingContainer .groupHeadingContainer .publicHeading{
-	background-color: #4ab58c;
+	background-color: #c5d8f2;
+	color: #1b1f25;
 }
 .rankingContainer .groupHeadingContainer .publicHeading:after{
-	border-top-color: #4ab58c;
+	border-top-color: #c5d8f2;
 }
 
 /*		Jury Style */
 .rankingContainer .groupHeadingContainer .juryHeading{
-	background-color: #8488e6;
+	background-color: #355079;
 }
 .rankingContainer .groupHeadingContainer .juryHeading:after {
-	border-top-color: #8488e6;
+	border-top-color: #355079;
 }
 
 .rankingContainer .ranking6 .result{

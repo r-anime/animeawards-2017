@@ -10,7 +10,8 @@
 			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			crossorigin="anonymous"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+		<script type="text/javascript" src="https://raw.githubusercontent.com/wilddeer/stickyfill/master/dist/stickyfill.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
 	    <link rel="stylesheet" href="style.css">
 	</head>
 	<body ng-app="aniwardsApp" ng-controller="aniwardsController">
@@ -28,13 +29,19 @@
 		<div id="contentBody">
 			<div id="intro">
 				<h2 class="subHeading">Introduction</h2>
-				<p class="blurb">This is a community run whatever the heck man
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-				sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-				magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-				quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-				ut aliquip ex ea commodo consequat.</p>
-				<p class="blurb">This is another paragraph wheeeeeee. @board give me things to put here</p>
+				<p class="blurb">
+					The /r/anime awards are a community awards project run by volunteers from the Reddit /r/anime community. Together we aim to find and showcase the best that anime has to offer from the 2017. This is the second consecutive year that these awards have been run.
+				</p>
+				<h2 class="subHeading">How it Works</h2>
+				<p class="blurb">
+					These awards are conceived on two main principles: involving the community as much as possible, and giving each show the fair chance it deserves. Thus, <b>each award category has two distinct winners chosen separately by public vote and jury decision.</b>
+				</p>
+				<p class="blurb">
+					The <b>public vote</b> is open to all members of the community. Anyone is eligible to vote and have their opinions counted towards these awards. Public vote is also responsible for selecting half the nominees.
+				</p>
+				<p class="blurb">
+					The <b>jury decision</b> was reached by a smaller group of voters after discussion and debate. Jurors are chosen from applicants within the community, and are obligated to watch each nominee in their assigned categories. The jury is also responsible for selecting the remaining nominees in each category.
+				</p>
 			</div>
 			<div ng-repeat="award in awards">
 				<h2 id="award-{{$index}}" class="subHeading">
@@ -101,5 +108,8 @@
 		<script src="awards.js"></script>
 		<script src="awardsdata.js"></script>
 		<script src="responsive.js"></script>
+		<script type="text/javascript">
+			Stickyfill.add($('nav'))
+		</script>
 	</body>
 </html>
