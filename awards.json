@@ -214,12 +214,12 @@
             }
           ],
 		  "hms": [
-            {
-              "name": "Imouto Sae Ireba Ii"
-            },
 			{
               "name": "Gintama"
-            }
+            },
+            {
+              "name": "Imouto Sae Ireba Ii"
+            }			
           ]
         },
         {
@@ -289,12 +289,12 @@
             }
           ],
 		  "hms": [
-            {
-              "name": "Yuuki Yuuna wa Yuusha de Aru: Washio Sumi no Shou + Yuusha no Shou"
-            },
 			{
 			  "name": "Welcome to the Ballroom"
-			}
+			},
+            {
+              "name": "Yuuki Yuuna wa Yuusha de Aru: Washio Sumi no Shou + Yuusha no Shou"
+            }			
           ]
         },
         {
@@ -803,10 +803,10 @@
           ],
           "hms": [
             {
-              "name": "Konoha Hoshinomori"
-            },
-            {
               "name": "Gakuensai Jimukyokuchou"
+            },
+			{
+              "name": "Konoha Hoshinomori"
             },
 			{
               "name": "Raid"
@@ -880,15 +880,15 @@
             }
           ],
           "hms": [
-            {
-              "name": "Utsuro"
-            },
-            {
-              "name": "Kamui"
-            },
 			{
               "name": "Cagliostro"
-            }
+            },
+			{
+              "name": "Kamui"
+            },
+            {
+              "name": "Utsuro"
+            }			
           ]
         },
         {
@@ -958,14 +958,14 @@
             }
           ],
           "hms": [
-            {
-              "name": "Miss Kobayashi's Maid Dragon"
-            },
-            {
-              "name": "Little Witch Academia"
-            },
 			{
               "name": "Kekkai Sensen & Beyond"
+            },
+			{
+              "name": "Little Witch Academia"
+            },
+            {
+              "name": "Miss Kobayashi's Maid Dragon"
             },
 			{
               "name": "New Game!!"
@@ -1039,17 +1039,17 @@
             }
           ],
           "hms": [
-            {
-              "name": "Shinichiro Miki as Kai"
-            },
-            {
-              "name": "Yuki Kaji as Kuga"
-            },
 			{
               "name": "Nobuhiko Okamoto as Bakugou"
             },
+            {
+              "name": "Shinichiro Miki as Kai"
+            },
 			{
               "name": "Takahiro Sakurai as Yasaburo"
+            },
+			{
+              "name": "Yuki Kaji as Kuga"
             }
           ]
         },
@@ -1120,18 +1120,18 @@
             }
           ],
           "hms": [
+			{
+              "name": "Mamiko Noto as Benten"
+            },
             {
               "name": "Marina Inoue as Kyouko"
             },
-            {
-              "name": "Mamiko Noto as Benten"
-            },
-			{
-              "name": "Sora Amamiya as Aqua"
-            },
 			{
               "name": "Megumi Han as Akko"
-            }
+            },            
+			{
+              "name": "Sora Amamiya as Aqua"
+            }			
           ]
         }
       ]
@@ -1300,19 +1300,19 @@
 			  ],
 			  "hms": [
 				{
-				  "name": "Urahara"
+				  "name": "18if (ep 7)"
 				},
 				{
 				  "name": "ACCA-13"
-				},
-				{
-				  "name": "18if (ep 7)"
 				},
 				{
 				  "name": "Blade Runner: Black Out 2022"
 				},
 				{
 				  "name": "Princess Principal"
+				},
+				{
+				  "name": "Urahara"
 				}
 			  ]
 			},
@@ -1384,11 +1384,11 @@
 			  ],
 			  "hms": [
 				{
-				  "name": "Princess Principal"
+				  "name": "ACCA-13"
 				},
 				{
-				  "name": "ACCA-13"
-				}
+				  "name": "Princess Principal"
+				}				
 			  ]
 			},
 			{
@@ -1540,13 +1540,13 @@
 				  "name": "3-gatsu no Lion"
 				},
 				{
-				  "name": "Miss Kobayashi's Dragon Maid"
-				},
+				  "name": "Kakegurui"
+				},				
 				{
 				  "name": "Kemono Friends"
-				},
+				},				
 				{
-				  "name": "Kakegurui"
+				  "name": "Miss Kobayashi's Dragon Maid"
 				},
 				{
 				  "name": "Sakura Quest"
@@ -1734,13 +1734,13 @@
 			  ],
 			  "hms": [
 				{
+				  "name": "Kyoumen no Nami"
+				},
+				{
 				  "name": "Nasagumama Sawagumama"
 				},
 				{
 				  "name": "Shadow & Truth"
-				},
-				{
-				  "name": "Kyoumen no Nami"
 				}
 			  ]
 			},
@@ -1850,6 +1850,9 @@
 			  ],
 			  "hms": [
 				{
+				  "name": "Amadare no Uta"
+				},
+				{
 				  "name": "Orion"
 				},
 				{
@@ -1857,9 +1860,6 @@
 				},
 				{
 				  "name": "Step up Love"
-				},
-				{
-				  "name": "Amadare no Uta"
 				}
 			  ]
 			}
