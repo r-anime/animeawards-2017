@@ -41,7 +41,7 @@ header img.headerSnoo{
 }
 
 nav {
-	background: rgba(0,0,0,0.2);
+	background: #557DB8;
 	position: sticky;
 	top: 0;
 }
