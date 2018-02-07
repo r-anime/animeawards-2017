@@ -2,6 +2,7 @@ var stuff = {
   "awards": [
     {
       "name": "Genre Awards",
+      "blurb": "test",
       "categories": [
         {
           "name": "Best Action Anime",

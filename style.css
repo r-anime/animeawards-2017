@@ -45,13 +45,19 @@ header img.headerSnoo{
 /*		SubHeaders */
 
 .subHeading {
-	margin: 30px;
+	color: #E7A924;
+	margin: 30px 0 0;
 	text-align: center;
 	font-size: 36px;
+	font-weight: 200;
+}
+.awardBlurb {
+	text-align: center;
+	margin: 20px 0 30px;
 }
 
 .catHeading {
-	background: #6a9de6;
+	background: linear-gradient(to right, transparent, #7A5F24, transparent);
 	padding: 5px;
 	font-size: 32px;
 	font-weight: 400;
