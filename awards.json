@@ -90,7 +90,7 @@
             },
             {
               "name": "Little Witch Academia",
-              "img": "img/adventure/lwa.jpg",
+              "img": "img/adventure/lwa.png",
               "place": "3"
             },
             {
@@ -127,7 +127,7 @@
             },
             {
               "name": "Little Witch Academia",
-              "img": "img/adventure/lwa.jpg",
+              "img": "img/adventure/lwa.png",
               "place": "4"
             },
             {
@@ -1859,7 +1859,7 @@
 				  "name": "Step up Love"
 				},
 				{
-				  "name": "Rubikon"
+				  "name": "Amadare no Uta"
 				}
 			  ]
 			}
