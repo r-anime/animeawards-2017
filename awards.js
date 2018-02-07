@@ -142,7 +142,7 @@ var stuff = {
               "place": "6"
             }
           ],
-		  "hms": [
+          "hms": [
             {
               "name": "Shingeki no Bahamut: Virgin Soul"
             }

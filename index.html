@@ -13,13 +13,20 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
 	    <link rel="stylesheet" href="style.css">
 	</head>
-	<body>
+	<body ng-app="aniwardsApp" ng-controller="aniwardsController">
 		<header>
 			<h1>/r/an<img class="headerSnoo" src="img/reddit.png">me Awards 2017</h1>
+			<nav>
+				<ul>
+					<li ng-repeat="award in awards">
+						<a href="#award-{{$index}}">{{award.name}}</a>
+					</li>
+				</ul>
+			</nav>
 		</header>
-		<div id="contentBody" ng-app="aniwardsApp" ng-controller="aniwardsController">
+		<div id="contentBody">
 			<div ng-repeat="award in awards">
-				<h2 id="genreAwards" class="subHeading">
+				<h2 id="award-{{$index}}" class="subHeading">
 					{{award.name}}
 				</h2>
 				<p class="awardBlurb">
