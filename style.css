@@ -44,6 +44,7 @@ nav {
 	background: #557DB8;
 	position: sticky;
 	top: 0;
+	z-index: 9999;
 }
 nav ul {
 	margin: 0 auto;
@@ -103,6 +104,11 @@ nav a:hover {
 	font-weight: 400;
 	text-align: center;
 	margin: 60px 0 20px;
+}
+
+.catHeading a, .aotyHeading a{
+	color: white;
+	text-decoration: none;
 }
 
 .rankingContainer .ranking{

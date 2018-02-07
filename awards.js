@@ -6,6 +6,7 @@ var stuff = {
       "categories": [
         {
           "name": "Best Action Anime",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj36a/jury_writeups_judges_best_action_anime_ranking/",
           "public": [
             {
               "name": "My Hero Academia",
@@ -78,6 +79,7 @@ var stuff = {
         },
         {
           "name": "Best Adventure Anime",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj5wc/jury_writeups_judges_best_adventure_anime_ranking/",
           "public": [
             {
               "name": "Made in Abyss",
@@ -150,6 +152,7 @@ var stuff = {
         },
         {
           "name": "Best Comedy Anime",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj33e/jury_writeups_judges_best_comedy_anime_ranking/",
           "public": [
             {
               "name": "KonoSuba 2",
@@ -225,6 +228,7 @@ var stuff = {
         },
         {
           "name": "Best Drama Anime",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj31o/jury_writeups_judges_best_drama_anime_ranking/",
           "public": [
             {
               "name": "3-gatsu no Lion",
@@ -300,6 +304,7 @@ var stuff = {
         },
         {
           "name": "Best Romance Anime",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2zn/jury_writeups_judges_best_romance_anime_ranking/",
           "public": [
             {
               "name": "Tsuki ga Kirei",
@@ -367,6 +372,7 @@ var stuff = {
         },
         {
           "name": "Best Slice of Life Anime",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2y6/jury_writeups_judges_best_slice_of_life_anime/",
           "public": [
             {
               "name": "Miss Kobayashi's Dragon Maid",
@@ -439,6 +445,7 @@ var stuff = {
         },
         {
           "name": "Best Thriller/Mystery Anime",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2wv/jury_writeups_judges_best_thrillermystery_anime/",
           "public": [
             {
               "name": "Princess Principal",
@@ -517,6 +524,7 @@ var stuff = {
       "categories": [
         {
           "name": "Best Dramatic Main Character",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2p3/jury_writeups_judges_best_main_character_in_a/",
           "public": [
             {
               "name": "Phosphophylite",
@@ -592,6 +600,7 @@ var stuff = {
         },
         {
           "name": "Best Dramatic Supporting Character",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2me/jury_writeups_judges_best_supporting_character_in/",
           "public": [
             {
               "name": "Nanachi",
@@ -667,6 +676,7 @@ var stuff = {
         },
         {
           "name": "Best Comedic Main Character",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2o8/jury_writeups_judges_best_main_character_in_a/",
           "public": [
             {
               "name": "Kazuma",
@@ -739,6 +749,7 @@ var stuff = {
         },
         {
           "name": "Best Comedic Supporting Character",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2lj/jury_writeups_judges_best_supporting_character_in/",
           "public": [
             {
               "name": "Yunyun",
@@ -817,6 +828,7 @@ var stuff = {
         },
         {
           "name": "Best Antagonist",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2if/jury_writeups_judges_best_antagonist_ranking/",
           "public": [
             {
               "name": "Stain",
@@ -895,6 +907,7 @@ var stuff = {
         },
         {
           "name": "Best Ensemble",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2gn/jury_writeups_judges_best_ensemble_cast_ranking/",
           "public": [
             {
               "name": "KonoSuba 2",
@@ -976,6 +989,7 @@ var stuff = {
         },
 		{
           "name": "Best Male VA",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2ef/jury_writeups_judges_best_male_va_in_role_ranking/",
           "public": [
             {
               "name": "Jun Fukushima as Kazuma",
@@ -1057,6 +1071,7 @@ var stuff = {
         },
 		{
           "name": "Best Female VA",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2d0/jury_writeups_judges_best_female_va_in_role/",
           "public": [
             {
               "name": "Saori Hayami as Shouko",
@@ -1144,6 +1159,7 @@ var stuff = {
 	  "categories": [
 			{
 			  "name": "Best Animation",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2aj/jury_writeups_judges_best_animation_ranking/",
 			  "public": [
 				{
 				  "name": "Houseki no Kuni",
@@ -1237,6 +1253,7 @@ var stuff = {
 			},
 			{
 			  "name": "Best Art Style",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj28g/jury_writeups_judges_best_art_style_ranking/",
 			  "public": [
 				{
 				  "name": "Made in Abyss",
@@ -1321,6 +1338,7 @@ var stuff = {
 			},
 			{
 			  "name": "Best Background Art",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj23q/jury_writeups_judges_best_background_art_ranking/",
 			  "public": [
 				{
 				  "name": "Made in Abyss",
@@ -1396,6 +1414,7 @@ var stuff = {
 			},
 			{
 			  "name": "Best Cinematography ",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj26y/jury_writeups_judges_best_cinematography_ranking/",
 			  "public": [
 				{
 				  "name": "Houseki no Kuni",
@@ -1474,6 +1493,7 @@ var stuff = {
 			},
 			{
 			  "name": "Best Character Design",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj25d/jury_writeups_judges_best_character_design/",
 			  "public": [
 				{
 				  "name": "My Hero Academia",
@@ -1558,6 +1578,7 @@ var stuff = {
 			},
 			{
 			  "name": "Best Original Soundtrack (OST)",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj3os/jury_writeups_judges_best_ost_ranking_honorable/",
 			  "public": [
 				{
 				  "name": "Made in Abyss",
@@ -1639,6 +1660,7 @@ var stuff = {
 			},
 			{
 			  "name": "Best OP (Opening)",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj21k/jury_writeups_judges_best_op_ranking_honorable/",
 			  "public": [
 				{
 				  "name": "Aozora no Rhapsody",
@@ -1755,6 +1777,7 @@ var stuff = {
 			},
 			{
 			  "name": "Best ED (Ending) ",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj209/jury_writeups_judges_best_ed_ranking_honorable/",
 			  "public": [
 				{
 				  "name": "Heikousen",
@@ -1880,6 +1903,7 @@ var stuff = {
 	  "categories": [
 		{
 			  "name": "Best Short",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj38d/jury_writeups_judges_best_shortform_anime_ranking/",
 			  "public": [
 				{
 				  "name": "Tsurezure Children",
@@ -1958,6 +1982,7 @@ var stuff = {
 			},
 			{
 			  "name": "Best Movie",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj3ak/jury_writeups_judges_best_anime_movie_ranking/",
 			  "public": [
 				{
 				  "name": "Koe no Katachi",
@@ -2030,6 +2055,7 @@ var stuff = {
 			},
 			{
 			  "name": "Anime of the Year",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vp7a7/jury_writeups_judges_anime_of_the_year_ranking/",
 			  "public": [
 				{
 				  "name": "Made in Abyss",
