@@ -44,6 +44,7 @@ nav {
 	background: #557DB8;
 	position: sticky;
 	top: 0;
+	z-index: 9999;
 }
 nav ul {
 	margin: 0 auto;
