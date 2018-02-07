@@ -527,7 +527,7 @@ var stuff = {
 		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2p3/jury_writeups_judges_best_main_character_in_a/",
           "public": [
             {
-              "name": "Phosphophylite",
+              "name": "Phosphophyllite",
               "img": "img/maindramatic/phos.jpg",
               "place": "1"
             },
@@ -574,7 +574,7 @@ var stuff = {
               "place": "3"
             },
             {
-              "name": "Phosphophylite",
+              "name": "Phosphophyllite",
               "img": "img/maindramatic/phos.jpg",
               "place": "4"
             },
