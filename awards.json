@@ -13,7 +13,7 @@
             },
             {
               "name": "Attack on Titan Season 2",
-              "img": "img/action/snks2.jpg",
+              "img": "img/action/aots2.jpg",
               "place": "2"
             },
             {
@@ -60,7 +60,7 @@
             },
             {
               "name": "Attack on Titan Season 2",
-              "img": "img/action/snks2.jpg",
+              "img": "img/action/aots2.jpg",
               "place": "5"
             },
             {
@@ -274,7 +274,7 @@
             },
             {
               "name": "Uchouten Kazuku 2",
-              "img": "img/drama/gamers.jpg",
+              "img": "img/drama/uk2.jpg",
               "place": "4"
             },
             {
@@ -307,7 +307,7 @@
             },
             {
               "name": "Tsurezure Children",
-              "img": "img/romance/tsurezure.jpg",
+              "img": "img/romance/tsurezure.png",
               "place": "2"
             },
             {
@@ -322,12 +322,12 @@
             },
             {
               "name": "Just Because",
-              "img": "img/romance/justbecause.jpg",
+              "img": "img/romance/justbecause.png",
               "place": "5"
             },
             {
               "name": "10 cm Datta",
-              "img": "img/romance/anini.jpg",
+              "img": "img/romance/10cm.jpg",
               "place": "6"
             }
           ],
@@ -339,7 +339,7 @@
             },
             {
               "name": "Tsurezure Children",
-              "img": "img/romance/tsurezure.jpg",
+              "img": "img/romance/tsurezure.png",
               "place": "2"
             },
             {
@@ -354,12 +354,12 @@
             },
             {
               "name": "Just Because",
-              "img": "img/romance/justbecause.jpg",
+              "img": "img/romance/justbecause.png",
               "place": "5"
             },
             {
               "name": "10 cm Datta",
-              "img": "img/romance/anini.jpg",
+              "img": "img/romance/10cm.jpg",
               "place": "6"
             }
           ]
@@ -384,7 +384,7 @@
             },
             {
               "name": "New Game!!",
-              "img": "img/sol/newgame2.jpg",
+              "img": "img/sol/newgame2.png",
               "place": "4"
             },
             {
@@ -394,7 +394,7 @@
             },
             {
               "name": "Urara Meirochou",
-              "img": "img/sol/urara.jpg",
+              "img": "img/sol/urara.png",
               "place": "6"
             }
           ],
@@ -406,12 +406,12 @@
             },
             {
               "name": "New Game!!",
-              "img": "img/sol/newgame2.jpg",
+              "img": "img/sol/newgame2.png",
               "place": "2"
             },
             {
               "name": "Urara Meirochou",
-              "img": "img/sol/urara.jpg",
+              "img": "img/sol/urara.png",
               "place": "3"
             },
             {
@@ -451,7 +451,7 @@
             },
             {
               "name": "Inuyashiki",
-              "img": "img/thriller/inuyashiki.jpg",
+              "img": "img/thriller/inuyashiki.png",
               "place": "3"
             },
             {
@@ -461,19 +461,19 @@
             },
             {
               "name": "The Kubikiri Cycle",
-              "img": "img/thriller/kubikiri.jpg",
+              "img": "img/thriller/kubikiri.png",
               "place": "5"
             },
             {
               "name": "Kado: The Right Answer",
-              "img": "img/thriller/kada.jpg",
+              "img": "img/thriller/kado.png",
               "place": "6"
             }
           ],
           "jury": [
             {
               "name": "The Kubikiri Cycle",
-              "img": "img/thriller/kubikiri.jpg",
+              "img": "img/thriller/kubikiri.png",
               "place": "1"
             },
             {
@@ -488,7 +488,7 @@
             },
             {
               "name": "Kado: The Right Answer",
-              "img": "img/thriller/kada.jpg",
+              "img": "img/thriller/kado.png",
               "place": "4"
             },
             {
@@ -498,7 +498,7 @@
             },
             {
               "name": "Inuyashiki",
-              "img": "img/thriller/inuyashiki.jpg",
+              "img": "img/thriller/inuyashiki.png",
               "place": "6"
             }
           ],
@@ -518,64 +518,64 @@
           "public": [
             {
               "name": "Phosphopphylite",
-              "img": "img/dramaticmain/phos.jpg",
+              "img": "img/maindramatic/phos.jpg",
               "place": "1"
             },
             {
               "name": "Shouko Nishimiya",
-              "img": "img/dramaticmain/shouko.jpg",
+              "img": "img/maindramatic/shouko.jpg",
               "place": "2"
             },
             {
               "name": "Yakumo Yuurakutei",
-              "img": "img/dramaticmain/yakumo.jpg",
+              "img": "img/maindramatic/yakumo.jpg",
               "place": "3"
             },
             {
               "name": "Rei Kiriyama",
-              "img": "img/dramaticmain/rei.jpg",
+              "img": "img/maindramatic/rei.jpg",
               "place": "3"
             },
             {
               "name": "Koyomi Araragi",
-              "img": "img/dramaticmain/araragi.jpg",
+              "img": "img/maindramatic/araragi.jpg",
               "place": "5"
             },
             {
               "name": "Suzu Urano",
-              "img": "img/dramaticmain/suzu.jpg",
+              "img": "img/maindramatic/suzu.jpg",
               "place": "6"
             }
           ],
           "jury": [
             {
               "name": "Yakumo Yuurakutei",
-              "img": "img/dramaticmain/yakumo.jpg",
+              "img": "img/maindramatic/yakumo.jpg",
               "place": "1"
             },
             {
               "name": "Rei Kiriyama",
-              "img": "img/dramaticmain/rei.jpg",
+              "img": "img/maindramatic/rei.jpg",
               "place": "2"
             },
             {
               "name": "Koyomi Araragi",
-              "img": "img/dramaticmain/araragi.jpg",
+              "img": "img/maindramatic/araragi.jpg",
               "place": "3"
             },
             {
               "name": "Phosphopphylite",
-              "img": "img/dramaticmain/phos.jpg",
+              "img": "img/maindramatic/phos.jpg",
               "place": "4"
             },
             {
               "name": "Suzu Urano",
-              "img": "img/dramaticmain/suzu.jpg",
+              "img": "img/maindramatic/suzu.jpg",
               "place": "5"
             },
             {
               "name": "Shouko Nishimiya",
-              "img": "img/dramaticmain/shouko.jpg",
+              "img": "img/maindramatic/shouko.jpg",
               "place": "6"
             }
           ],
@@ -593,64 +593,64 @@
           "public": [
             {
               "name": "Nanachi",
-              "img": "",
+              "img": "img/suppdramatic/nanachi.jpg",
               "place": "1"
             },
             {
               "name": "Kai Shimada",
-              "img": "",
+              "img": "img/suppdramatic/kai.jpg",
               "place": "2"
             },
             {
               "name": "Antarcticite",
-              "img": "",
+              "img": "img/suppdramatic/antarc.jpg",
               "place": "3"
             },
             {
               "name": "Yuzuru Nishimiya",
-              "img": "",
-              "place": "3"
+              "img": "img/suppdramatic/yuzuru.jpg",
+              "place": "4"
             },
             {
               "name": "Konatsu",
-              "img": "",
+              "img": "img/suppdramatic/konatsu.jpg",
               "place": "5"
             },
             {
               "name": "Kyouko Kouda",
-              "img": "",
+              "img": "img/suppdramatic/kyouko.jpg",
               "place": "6"
             }
           ],
           "jury": [
             {
               "name": "Kai Shimada",
-              "img": "",
+              "img": "img/suppdramatic/kai.jpg",
               "place": "1"
             },
             {
               "name": "Konatsu",
-              "img": "",
+              "img": "img/suppdramatic/konatsu.jpg",
               "place": "2"
             },
             {
               "name": "Kyouko Kouda",
-              "img": "",
+              "img": "img/suppdramatic/kyouko.jpg",
               "place": "3"
             },
             {
               "name": "Yuzuru Nishimiya",
-              "img": "",
+              "img": "img/suppdramatic/yuzuru.jpg",
               "place": "4"
             },
             {
               "name": "Nanachi",
-              "img": "",
+              "img": "img/suppdramatic/nanachi.jpg",
               "place": "5"
             },
             {
               "name": "Antarcticite",
-              "img": "",
+              "img": "img/suppdramatic/antarc.jpg",
               "place": "6"
             }
           ],
@@ -668,64 +668,64 @@
           "public": [
             {
               "name": "Kazuma",
-              "img": "",
+              "img": "img/maincomedic/kazuma.jpg",
               "place": "1"
             },
             {
               "name": "Megumin",
-              "img": "",
+              "img": "img/maincomedic/meme.jpg",
               "place": "2"
             },
             {
               "name": "Akko Kagari",
-              "img": "",
+              "img": "img/maincomedic/akko.jpg",
               "place": "3"
             },
             {
               "name": "Aqua",
-              "img": "",
-              "place": "3"
+              "img": "img/maincomedic/aqua.jpg",
+              "place": "4"
             },
             {
               "name": "Yuuri",
-              "img": "",
+              "img": "img/maincomedic/yuuri.jpg",
               "place": "5"
             },
             {
               "name": "Kukuri",
-              "img": "",
+              "img": "img/maincomedic/kukuri.jpg",
               "place": "6"
             }
           ],
           "jury": [
             {
               "name": "Kukuri",
-              "img": "",
+              "img": "img/maincomedic/kukuri.jpg",
               "place": "1"
             },
             {
               "name": "Aqua",
-              "img": "",
+              "img": "img/maincomedic/aqua.jpg",
               "place": "2"
             },
             {
               "name": "Kazuma",
-              "img": "",
+              "img": "img/maincomedic/kazuma.jpg",
               "place": "3"
             },
             {
               "name": "Akko Kagari",
-              "img": "",
+              "img": "img/maincomedic/akko.jpg",
               "place": "4"
             },
             {
               "name": "Yuuri",
-              "img": "",
+              "img": "img/maincomedic/yuuri.jpg",
               "place": "5"
             },
             {
               "name": "Megumin",
-              "img": "",
+              "img": "img/maincomedic/meme.jpg",
               "place": "6"
             }
           ],
@@ -740,64 +740,64 @@
           "public": [
             {
               "name": "Yunyun",
-              "img": "",
+              "img": "img/suppcomedic/yunyun.jpg",
               "place": "1"
             },
             {
               "name": "Fafnir",
-              "img": "",
+              "img": "img/suppcomedic/fafnir.jpg",
               "place": "2"
             },
             {
               "name": "Nikaidou Harunobu",
-              "img": "",
+              "img": "img/suppcomedic/nikaidou.jpg",
               "place": "3"
             },
             {
               "name": "Nene Sakura",
-              "img": "",
-              "place": "3"
+              "img": "img/suppcomedic/nene.jpg",
+              "place": "4"
             },
             {
               "name": "Hideri Kanzaki",
-              "img": "",
+              "img": "img/suppcomedic/hideri.jpg",
               "place": "5"
             },
             {
               "name": "Juju",
-              "img": "",
+              "img": "img/suppcomedic/juju.jpg",
               "place": "6"
             }
           ],
           "jury": [
             {
               "name": "Nikaidou Harunobu",
-              "img": "",
+              "img": "img/suppcomedic/nikaidou.jpg",
               "place": "1"
             },
             {
               "name": "Juju",
-              "img": "",
+              "img": "img/suppcomedic/juju.jpg",
               "place": "2"
             },
             {
               "name": "Hideri Kanzaki",
-              "img": "",
+              "img": "img/suppcomedic/hideri.jpg",
               "place": "3"
             },
             {
               "name": "Nene Sakura",
-              "img": "",
+              "img": "img/suppcomedic/nene.jpg",
               "place": "4"
             },
             {
               "name": "Fafnir",
-              "img": "",
+              "img": "img/suppcomedic/fafnir.jpg",
               "place": "5"
             },
             {
               "name": "Yunyun",
-              "img": "",
+              "img": "img/suppcomedic/yunyun.jpg",
               "place": "6"
             }
           ],
@@ -818,64 +818,64 @@
           "public": [
             {
               "name": "Stain",
-              "img": "",
+              "img": "img/antagonist/stain.jpg",
               "place": "1"
             },
             {
               "name": "Ougi Oshino",
-              "img": "",
+              "img": "img/antagonist/ougi.jpg",
               "place": "2"
             },
             {
               "name": "Bondrewd",
-              "img": "",
+              "img": "img/antagonist/bonedude.jpg",
               "place": "3"
             },
             {
               "name": "Akane Minagawa",
-              "img": "",
-              "place": "3"
+              "img": "img/antagonist/akane.jpg",
+              "place": "4"
             },
             {
               "name": "Rastal Elion",
-              "img": "",
+              "img": "img/antagonist/rastal.jpg",
               "place": "5"
             },
             {
               "name": "Saint Germaine",
-              "img": "",
+              "img": "img/antagonist/stgermaine.jpg",
               "place": "6"
             }
           ],
           "jury": [
             {
               "name": "Ougi Oshino",
-              "img": "",
+              "img": "img/antagonist/ougi.jpg",
               "place": "1"
             },
             {
               "name": "Akane Minagawa",
-              "img": "",
+              "img": "img/antagonist/akane.jpg",
               "place": "2"
             },
             {
               "name": "Stain",
-              "img": "",
+              "img": "img/antagonist/stain.jpg",
               "place": "3"
             },
             {
               "name": "Rastall Elion",
-              "img": "",
+              "img": "img/antagonist/rastal.jpg",
               "place": "4"
             },
             {
               "name": "Saint Germaine",
-              "img": "",
+              "img": "img/antagonist/stgermaine.jpg",
               "place": "5"
             },
             {
               "name": "Bondrewd",
-              "img": "",
+              "img": "img/antagonist/bonedude.jpg",
               "place": "6"
             }
           ],
@@ -896,64 +896,64 @@
           "public": [
             {
               "name": "KonoSuba 2",
-              "img": "",
+              "img": "img/ensemble/kono2ba.png",
               "place": "1"
             },
             {
               "name": "Houseki no Kuni",
-              "img": "",
+              "img": "img/ensemble/houseki.jpg",
               "place": "2"
             },
             {
               "name": "My Hero Academia 2",
-              "img": "",
+              "img": "img/ensemble/bnha.jpg",
               "place": "3"
             },
             {
               "name": "3-gatsu no Lion",
-              "img": "",
-              "place": "3"
+              "img": "img/ensemble/3gatsu.jpg",
+              "place": "4"
             },
             {
               "name": "Princess Principal",
-              "img": "",
+              "img": "img/ensemble/prpr.jpg",
               "place": "5"
             },
             {
               "name": "Sakura Quest",
-              "img": "",
+              "img": "img/ensemble/sakuraquest.jpg",
               "place": "6"
             }
           ],
           "jury": [
             {
               "name": "Princess Principal",
-              "img": "",
+              "img": "img/ensemble/prpr.jpg",
               "place": "1"
             },
             {
               "name": "Sakura Quest",
-              "img": "",
+              "img": "img/ensemble/sakuraquest.jpg",
               "place": "2"
             },
             {
               "name": "My Hero Academia",
-              "img": "",
+              "img": "img/ensemble/bnha.jpg",
               "place": "3"
             },
             {
               "name": "Houseki no Kuni",
-              "img": "",
+              "img": "img/ensemble/houseki.jpg",
               "place": "4"
             },
             {
               "name": "3-gatsu no Lion",
-              "img": "",
+              "img": "img/ensemble/3gatsu.jpg",
               "place": "5"
             },
             {
               "name": "KonoSuba 2",
-              "img": "",
+              "img": "img/ensemble/kono2ba.png",
               "place": "6"
             }
           ],
@@ -977,64 +977,64 @@
           "public": [
             {
               "name": "Jun Fukushima as Kazuma",
-              "img": "",
+              "img": "img/maleva/jun.jpg",
               "place": "1"
             },
             {
               "name": "Akira Ishida as Yakumo",
-              "img": "",
+              "img": "img/maleva/akira.jpg",
               "place": "2"
             },
             {
               "name": "Hiroshi Kamiya as Araragi",
-              "img": "",
+              "img": "img/maleva/hiroshi.jpg",
               "place": "3"
             },
             {
               "name": "Irino Miyu as Shouya",
-              "img": "",
-              "place": "3"
+              "img": "img/maleva/irino.jpg",
+              "place": "4"
             },
             {
               "name": "Keno Kawashima as Rei",
-              "img": "",
+              "img": "img/maleva/keno.jpg",
               "place": "5"
             },
             {
               "name": "Tomokazu Seki as Yotaro",
-              "img": "",
+              "img": "img/maleva/tomokazu.jpg",
               "place": "6"
             }
           ],
           "jury": [
             {
               "name": "Akira Ishida as Yakumo",
-              "img": "",
+              "img": "img/maleva/akira.jpg",
               "place": "1"
             },
             {
               "name": "Tomokazu Seki as Yotaro",
-              "img": "",
+              "img": "img/maleva/tomokazu.jpg",
               "place": "2"
             },
             {
               "name": "Hiroshi Kamiya as Araragi",
-              "img": "",
+              "img": "img/maleva/hiroshi.jpg",
               "place": "3"
             },
             {
               "name": "Jun Fukushima as Kazuma",
-              "img": "",
+              "img": "img/maleva/jun.jpg",
               "place": "4"
             },
             {
               "name": "Kengo Kawanishi as Rei",
-              "img": "",
+              "img": "img/maleva/keno.jpg",
               "place": "5"
             },
             {
               "name": "Irino Miyu as Shouya",
-              "img": "",
+              "img": "img/maleva/irino.jpg",
               "place": "6"
             }
           ],
@@ -1058,64 +1058,64 @@
           "public": [
             {
               "name": "Saori Hayami as Shouko",
-              "img": "",
+              "img": "img/femaleva/saori.jpg",
               "place": "1"
             },
             {
               "name": "Tomoyo Kurosawa as Phos",
-              "img": "",
+              "img": "img/femaleva/tomoyo.jpg",
               "place": "2"
             },
             {
               "name": "Aoi Yuuki as Tanya",
-              "img": "",
+              "img": "img/femaleva/aoi.jpg",
               "place": "3"
             },
             {
               "name": "Yuu Kobayashi as Konatsu",
-              "img": "",
-              "place": "3"
+              "img": "img/femaleva/yuu.jpg",
+              "place": "4"
             },
             {
               "name": "Chika Anzai as Hanabi",
-              "img": "",
+              "img": "img/femaleva/chika.jpg",
               "place": "5"
             },
             {
               "name": "Kana Hanazawa as Otome",
-              "img": "",
+              "img": "img/femaleva/kanahana.jpg",
               "place": "6"
             }
           ],
           "jury": [
             {
               "name": "Yuu Kobayashi as Konatsu",
-              "img": "",
+              "img": "img/femaleva/yuu.jpg",
               "place": "1"
             },
             {
               "name": "Tomoyo Kurosawa as Phos",
-              "img": "",
+              "img": "img/femaleva/tomoyo.jpg",
               "place": "2"
             },
             {
               "name": "Aoi Yuuki as Tanya",
-              "img": "",
+              "img": "img/femaleva/aoi.jpg",
               "place": "3"
             },
             {
               "name": "Saori Hayami as Shouko",
-              "img": "",
+              "img": "img/femaleva/saori.jpg",
               "place": "4"
             },
             {
               "name": "Kana Hanazawa as Otome",
-              "img": "",
+              "img": "img/femaleva/kanahana.jpg",
               "place": "5"
             },
             {
               "name": "Chika Anzai as Hanabi",
-              "img": "",
+              "img": "img/femaleva/chika.jpg",
               "place": "6"
             }
           ],
@@ -1144,64 +1144,64 @@
 			  "public": [
 				{
 				  "name": "Houseki no Kuni",
-				  "img": "",
+				  "img": "img/animation/houseki.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "My Hero Academia",
-				  "img": "",
+				  "img": "img/animation/bnha.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Little Witch Academia",
-				  "img": "",
+				  "img": "img/animation/lwa.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "Miss Kobayashi's Dragon Maid",
-				  "img": "",
+				  "img": "img/animation/dragonmaid.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "Attack on Titan S2",
-				  "img": "",
+				  "img": "img/animation/aots2.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Kekkai Sensen & Beyond",
-				  "img": "",
+				  "img": "img/animation/bbbb.jpg",
 				  "place": "6"
 				}
 			  ],
 			  "jury": [
 				{
 				  "name": "Houseki no Kuni",
-				  "img": "",
+				  "img": "img/animation/houseki.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Little Witch Academia",
-				  "img": "",
+				  "img": "img/animation/lwa.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Miss Kobayashi's Dragon Maid",
-				  "img": "",
+				  "img": "img/animation/dragonmaid.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "My Hero Academia",
-				  "img": "",
+				  "img": "img/animation/bnha.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "Kekkai Sensen & Beyond",
-				  "img": "",
+				  "img": "img/animation/bbbb.jpg",
 				  "place": "5"
 				},
 				{
-				  "name": "Attack on Titan",
-				  "img": "",
+				  "name": "Attack on Titan S2",
+				  "img": "img/animation/aots2.jpg",
 				  "place": "6"
 				}
 			  ],
@@ -1237,64 +1237,64 @@
 			  "public": [
 				{
 				  "name": "Made in Abyss",
-				  "img": "",
+				  "img": "img/artstyle/mia.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Houseki no Kuni",
-				  "img": "",
+				  "img": "img/artstyle/houseki.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "3-gatsu no Lion",
-				  "img": "",
+				  "img": "img/artstyle/3gatsu.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "Owarimonogatari 2",
-				  "img": "",
+				  "img": "img/artstyle/owari.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "Girls' Last Tour",
-				  "img": "",
+				  "img": "img/artstyle/glt.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Uchouten Kazoku 2",
-				  "img": "",
+				  "img": "img/artstyle/uk2.jpg",
 				  "place": "6"
 				}
 			  ],
 			  "jury": [
 				{
 				  "name": "3-gatsu no Lion",
-				  "img": "",
+				  "img": "img/artstyle/3gatsu.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Uchouten Kazoku 2",
-				  "img": "",
+				  "img": "img/artstyle/uk2.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Girls' Last Tour",
-				  "img": "",
+				  "img": "img/artstyle/glt.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "Owarimonogatari 2",
-				  "img": "",
+				  "img": "img/artstyle/owari.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "Houseki no Kuni",
-				  "img": "",
+				  "img": "img/artstyle/houseki.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Made in Abyss",
-				  "img": "",
+				  "img": "img/artstyle/mia.jpg",
 				  "place": "6"
 				}
 			  ],
@@ -1321,64 +1321,64 @@
 			  "public": [
 				{
 				  "name": "Made in Abyss",
-				  "img": "",
+				  "img": "img/bgart/mia.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Houseki no Kuni",
-				  "img": "",
+				  "img": "img/artstle/houseki.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Girls' Last Tour",
-				  "img": "",
+				  "img": "img/artstle/glt.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "Uchouten Kazoku 2",
-				  "img": "",
+				  "img": "img/artstle/uk2.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "Children of the Whales",
-				  "img": "",
+				  "img": "img/artstle/whales.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Minami Kamakura",
-				  "img": "",
+				  "img": "img/artstle/minamik.jpg",
 				  "place": "6"
 				}
 			  ],
 			  "jury": [
 				{
 				  "name": "Uchouten Kazoku 2",
-				  "img": "",
+				  "img": "img/artstle/uk2.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Children of the Whales",
-				  "img": "",
+				  "img": "img/artstle/whales.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Made in Abyss",
-				  "img": "",
+				  "img": "img/artstle/mia.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "Minami Kamakura",
-				  "img": "",
+				  "img": "img/artstle/minamik.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "Girls' Last Tour",
-				  "img": "",
+				  "img": "img/artstle/glt.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Houseki no Kuni",
-				  "img": "",
+				  "img": "img/artstle/houseki.jpg",
 				  "place": "6"
 				}
 			  ],
@@ -1396,64 +1396,64 @@
 			  "public": [
 				{
 				  "name": "Houseki no Kuni",
-				  "img": "",
+				  "img": "img/cinema/houseki.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Owarimonogatari 2",
-				  "img": "",
+				  "img": "img/cinema/owari2.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Made in Abyss",
-				  "img": "",
+				  "img": "img/cinema/mia.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "3-gatsu no Lion",
-				  "img": "",
+				  "img": "img/cinema/3gatsu.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "Rakugo 2",
-				  "img": "",
+				  "img": "img/cinema/rakugo2.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Girls' Last Tour",
-				  "img": "",
+				  "img": "img/cinema/glt.jpg",
 				  "place": "6"
 				}
 			  ],
 			  "jury": [
 				{
 				  "name": "Houseki no Kuni",
-				  "img": "",
+				  "img": "img/cinema/houseki.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Rakugo 2",
-				  "img": "",
+				  "img": "img/cinema/rakugo2.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Owarimonogatari",
-				  "img": "",
+				  "img": "img/cinema/owari2.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "3-gatsu no Lion",
-				  "img": "",
+				  "img": "img/cinema/3gatsu.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "Girls' Last Tour",
-				  "img": "",
+				  "img": "img/cinema/glt.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Made in Abyss",
-				  "img": "",
+				  "img": "img/cinema/mia.jpg",
 				  "place": "6"
 				}
 			  ],
@@ -1474,64 +1474,64 @@
 			  "public": [
 				{
 				  "name": "My Hero Academia",
-				  "img": "",
+				  "img": "img/chardesign/bnha.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Houseki no Kuni",
-				  "img": "",
+				  "img": "img/chardesign/houseki.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Princess Principal",
-				  "img": "",
+				  "img": "img/chardesign/prpr.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "Little Witch Academia",
-				  "img": "",
+				  "img": "img/chardesign/lwa.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "ACCA-13",
-				  "img": "",
+				  "img": "img/chardesign/acca.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Made in Abyss",
-				  "img": "",
+				  "img": "img/chardesign/mia.jpg",
 				  "place": "6"
 				}
 			  ],
 			  "jury": [
 				{
 				  "name": "ACCA-13",
-				  "img": "",
+				  "img": "img/chardesign/acca.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Houseki no Kuni",
-				  "img": "",
+				  "img": "img/chardesign/houseki.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Princess Principal",
-				  "img": "",
+				  "img": "img/chardesign/prpr.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "Little Witch Academia",
-				  "img": "",
+				  "img": "img/chardesign/lwa.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "My Hero Academia 2",
-				  "img": "",
+				  "img": "img/chardesign/bnha.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Made in Abyss",
-				  "img": "",
+				  "img": "img/chardesign/mia.jpg",
 				  "place": "6"
 				}
 			  ],
@@ -1558,64 +1558,64 @@
 			  "public": [
 				{
 				  "name": "Made in Abyss",
-				  "img": "",
+				  "img": "img/ost/mia.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Houseki no Kuni",
-				  "img": "",
+				  "img": "img/ost/houseki.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Girls' Last Tour",
-				  "img": "",
+				  "img": "img/ost/glt.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "3-gatsu no Lion",
-				  "img": "",
+				  "img": "img/ost/3gatsu.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "Little Witch Academia",
-				  "img": "",
+				  "img": "img/ost/lwa.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Kuzu no Honkai",
-				  "img": "",
+				  "img": "img/ost/kuzu.jpg",
 				  "place": "6"
 				}
 			  ],
 			  "jury": [
 				{
 				  "name": "Girls' Last Tour",
-				  "img": "",
+				  "img": "img/ost/glt.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Houseki no Kuni",
-				  "img": "",
+				  "img": "img/ost/houseki.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Made in Abyss",
-				  "img": "",
+				  "img": "img/ost/mia.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "Little Witch Academia",
-				  "img": "",
+				  "img": "img/ost/lwa.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "3-gatsu no Lion",
-				  "img": "",
+				  "img": "img/ost/3gatsu.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Kuzu no Honkai",
-				  "img": "",
+				  "img": "img/ost/kuzu.jpg",
 				  "place": "6"
 				}
 			  ],
@@ -1633,102 +1633,102 @@
 			  "public": [
 				{
 				  "name": "Aozora no Rhapsody",
-				  "img": "",
+				  "img": "img/op/aozora.png",
 				  "place": "1"
 				},
 				{
 				  "name": "The Other Side of the Wall",
-				  "img": "",
+				  "img": "img/op/wall.png",
 				  "place": "2"
 				},
 				{
 				  "name": "Ugoku, Ugoku",
-				  "img": "",
+				  "img": "img/op/ugoku.png",
 				  "place": "3"
 				},
 				{
 				  "name": "Imawa no Shinigami",
-				  "img": "",
+				  "img": "img/op/shinigami.png",
 				  "place": "4"
 				},
 				{
 				  "name": "Peace Sign",
-				  "img": "",
+				  "img": "img/op/peace.png",
 				  "place": "5"
 				},
 				{
 				  "name": "Deal with the Devil",
-				  "img": "",
+				  "img": "img/op/dealwith.png",
 				  "place": "6"
 				},
 				{
 				  "name": "Dark Cherry Mystery",
-				  "img": "",
+				  "img": "img/op/darkcherry.png",
 				  "place": "7"
 				},
 				{
 				  "name": "Deep in the Abyss",
-				  "img": "",
+				  "img": "img/op/deep.png",
 				  "place": "8"
 				},{
 				  "name": "Flag Wo Tatero",
-				  "img": "",
+				  "img": "img/op/flag.png",
 				  "place": "9"
 				},
 				{
 				  "name": "Don't",
-				  "img": "",
+				  "img": "img/op/dont.png",
 				  "place": "10"
 				}
 			  ],
 			  "jury": [
 				{
 				  "name": "Imawa no Shinigami",
-				  "img": "",
+				  "img": "img/op/shinigami.png",
 				  "place": "1"
 				},
 				{
 				  "name": "Ugoku, Ugoku",
-				  "img": "",
+				  "img": "img/op/ugoku.png",
 				  "place": "2"
 				},
 				{
 				  "name": "Deal with the Devil",
-				  "img": "",
+				  "img": "img/op/deal.png",
 				  "place": "3"
 				},
 				{
 				  "name": "Flag Wo Tatero",
-				  "img": "",
+				  "img": "img/op/flag.png",
 				  "place": "3"
 				},
 				{
 				  "name": "Dark Cherry Mystery",
-				  "img": "",
+				  "img": "img/op/darkcherry.png",
 				  "place": "5"
 				},
 				{
 				  "name": "Aozora no Rhapsody",
-				  "img": "",
+				  "img": "img/op/aozora.png",
 				  "place": "6"
 				},
 				{
 				  "name": "Don't",
-				  "img": "",
+				  "img": "img/op/dont.png",
 				  "place": "7"
 				},
 				{
 				  "name": "The Other Side of the Wall",
-				  "img": "",
+				  "img": "img/op/wall.png",
 				  "place": "8"
 				},{
 				  "name": "Peace Sign",
-				  "img": "",
+				  "img": "img/op/peace.png",
 				  "place": "9"
 				},
 				{
 				  "name": "Deep in the Abyss",
-				  "img": "",
+				  "img": "img/op/deep.png",
 				  "place": "10"
 				}
 			  ],
@@ -1749,102 +1749,102 @@
 			  "public": [
 				{
 				  "name": "Heikousen",
-				  "img": "",
+				  "img": "img/ed/heikousen.png",
 				  "place": "1"
 				},
 				{
 				  "name": "More One Night",
-				  "img": "",
+				  "img": "img/ed/more.png",
 				  "place": "2"
 				},
 				{
 				  "name": "Isukan Communication",
-				  "img": "",
+				  "img": "img/ed/isukan.png",
 				  "place": "3"
 				},
 				{
 				  "name": "Los! Los! Los!",
-				  "img": "",
+				  "img": "img/ed/los3.png",
 				  "place": "4"
 				},
 				{
 				  "name": "Kirameku Hamabe",
-				  "img": "",
+				  "img": "img/ed/kirameku.png",
 				  "place": "5"
 				},
 				{
 				  "name": "Freesia",
-				  "img": "",
+				  "img": "img/ed/freesia.png",
 				  "place": "6"
 				},
 				{
 				  "name": "Toumei na Tsubasa",
-				  "img": "",
+				  "img": "img/ed/toumei.png",
 				  "place": "7"
 				},
 				{
 				  "name": "Kafune",
-				  "img": "",
+				  "img": "img/ed/kafune.png",
 				  "place": "8"
 				},{
 				  "name": "Tabi no Hidarite",
-				  "img": "",
+				  "img": "img/ed/tabi.png",
 				  "place": "9"
 				},
 				{
 				  "name": "Kirameki Lifeline",
-				  "img": "",
+				  "img": "img/ed/kirameki.png",
 				  "place": "10"
 				}
 			  ],
 			  "jury": [
 				{
 				  "name": "More One Night",
-				  "img": "",
+				  "img": "img/ed/more.png",
 				  "place": "1"
 				},
 				{
 				  "name": "Heikousen",
-				  "img": "",
+				  "img": "img/ed/heikousen.png",
 				  "place": "2"
 				},
 				{
 				  "name": "Toumei na Tsubasa",
-				  "img": "",
+				  "img": "img/ed/toumei.png",
 				  "place": "3"
 				},
 				{
 				  "name": "Kafune",
-				  "img": "",
+				  "img": "img/ed/kafune.png",
 				  "place": "4"
 				},
 				{
 				  "name": "Kirameku Hamabe",
-				  "img": "",
+				  "img": "img/ed/kirameku.png",
 				  "place": "5"
 				},
 				{
 				  "name": "Kirameki Lifeline",
-				  "img": "",
+				  "img": "img/ed/kirameki.png",
 				  "place": "6"
 				},
 				{
 				  "name": "Isukan Communication",
-				  "img": "",
+				  "img": "img/ed/isukan.png",
 				  "place": "7"
 				},
 				{
 				  "name": "Freesia",
-				  "img": "",
+				  "img": "img/ed/freesia.png",
 				  "place": "8"
 				},{
 				  "name": "Tabi no Hidarite",
-				  "img": "",
+				  "img": "img/ed/tabi.png",
 				  "place": "9"
 				},
 				{
 				  "name": "Los! Los! Los!",
-				  "img": "",
+				  "img": "img/ed/los3.png",
 				  "place": "10"
 				}
 			  ],
@@ -1873,64 +1873,64 @@
 			  "public": [
 				{
 				  "name": "Tsurezure Children",
-				  "img": "",
+				  "img": "img/shorts/tsurezure.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Aho Girl",
-				  "img": "",
+				  "img": "img/shorts/aho.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Blade Runner 2022",
-				  "img": "",
+				  "img": "img/shorts/bladerunner.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "Teekyuu 9",
-				  "img": "",
+				  "img": "img/shorts/teekyuu.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "Ani ni Tsukeru",
-				  "img": "",
+				  "img": "img/shorts/anini.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Crystal Clear",
-				  "img": "",
+				  "img": "img/shorts/crystalclear.jpg",
 				  "place": "6"
 				}
 			  ],
 			  "jury": [
 				{
 				  "name": "Crystal Clear",
-				  "img": "",
+				  "img": "img/shorts/crystalclear.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Ani ni Tsukeru",
-				  "img": "",
+				  "img": "img/shorts/anini.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Tsurezure Children",
-				  "img": "",
+				  "img": "img/shorts/tsurezure.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "Teekyuu 9",
-				  "img": "",
+				  "img": "img/shorts/teekyuu.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "Blade Runner 2022",
-				  "img": "",
+				  "img": "img/shorts/bladerunner.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Aho Girl",
-				  "img": "",
+				  "img": "img/shorts/aho.jpg",
 				  "place": "6"
 				}
 			  ],
@@ -1951,64 +1951,64 @@
 			  "public": [
 				{
 				  "name": "Koe no Katachi",
-				  "img": "",
+				  "img": "img/movie/koe.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Kimi no Na Wa",
-				  "img": "",
+				  "img": "img/movie/kimi.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Kizumonogatari III",
-				  "img": "",
+				  "img": "img/movie/kizu.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "In This Corner of the World",
-				  "img": "",
+				  "img": "img/movie/corner.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "The Night is Short, Walk on Girl",
-				  "img": "",
+				  "img": "img/movie/otome.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Lu Over the Wall",
-				  "img": "",
+				  "img": "img/movie/lu.jpg",
 				  "place": "6"
 				}
 			  ],
 			  "jury": [
 				{
 				  "name": "The Night is Short, Walk on Girl",
-				  "img": "",
+				  "img": "img/movie/otome.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Koe no Katachi",
-				  "img": "",
+				  "img": "img/movie/koe.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "In This Corner of the World",
-				  "img": "",
+				  "img": "img/movie/corner.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "Lu Over the Wall",
-				  "img": "",
+				  "img": "img/movie/lu.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "Kimi no Na Wa",
-				  "img": "",
+				  "img": "img/movie/kimi.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Kizumonogatari",
-				  "img": "",
+				  "img": "img/movie/kizu.jpg",
 				  "place": "6"
 				}
 			  ],
@@ -2023,102 +2023,102 @@
 			  "public": [
 				{
 				  "name": "Made in Abyss",
-				  "img": "",
+				  "img": "img/aoty/mia.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "Houseki no Kuni",
-				  "img": "",
+				  "img": "img/aoty/houseki.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "My Hero Academia",
-				  "img": "",
+				  "img": "img/aoty/bnha.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "Shouwa Genroku Rakugo Shinjuu 2",
-				  "img": "",
+				  "img": "img/aoty/rakugo.jpg",
 				  "place": "4"
 				},
 				{
 				  "name": "3-gatsu no Lion",
-				  "img": "",
+				  "img": "img/aoty/3gatsu.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "Konosuba 2",
-				  "img": "",
+				  "img": "img/aoty/kono2ba.jpg",
 				  "place": "6"
 				},
 				{
 				  "name": "Miss Kobayashi's Dragon Maid",
-				  "img": "",
+				  "img": "img/aoty/dragonmaid.jpg",
 				  "place": "7"
 				},
 				{
 				  "name": "Tsuki ga Kirei",
-				  "img": "",
+				  "img": "img/aoty/tsuki.jpg",
 				  "place": "8"
 				},{
 				  "name": "Girls' Last Tour",
-				  "img": "",
+				  "img": "img/aoty/glt.jpg",
 				  "place": "9"
 				},
 				{
 				  "name": "ACCA-13",
-				  "img": "",
+				  "img": "img/aoty/acca.jpg",
 				  "place": "10"
 				}
 			  ],
 			  "jury": [
 				{
 				  "name": "Shouwa Genroku Rakugo Shinjuu 2",
-				  "img": "",
+				  "img": "img/aoty/rakugo.jpg",
 				  "place": "1"
 				},
 				{
 				  "name": "3-gatsu no Lion",
-				  "img": "",
+				  "img": "img/aoty/3gatsu.jpg",
 				  "place": "2"
 				},
 				{
 				  "name": "Houseki no Kuni",
-				  "img": "",
+				  "img": "img/aoty/houseki.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "Girls' Last Tour",
-				  "img": "",
+				  "img": "img/aoty/glt.jpg",
 				  "place": "3"
 				},
 				{
 				  "name": "Made in Abyss",
-				  "img": "",
+				  "img": "img/aoty/mia.jpg",
 				  "place": "5"
 				},
 				{
 				  "name": "ACCA-13",
-				  "img": "",
+				  "img": "img/aoty/acca13.jpg",
 				  "place": "6"
 				},
 				{
 				  "name": "Miss Kobayashi's Dragon Maid",
-				  "img": "",
+				  "img": "img/aoty/dragonmaid.jpg",
 				  "place": "7"
 				},
 				{
 				  "name": "Tsuki ga Kirei",
-				  "img": "",
+				  "img": "img/aoty/tsuki.jpg",
 				  "place": "8"
 				},{
 				  "name": "My Hero Academia",
-				  "img": "",
+				  "img": "img/aoty/bnha.jpg",
 				  "place": "9"
 				},
 				{
 				  "name": "KonoSuba 2",
-				  "img": "",
+				  "img": "img/aoty/kono2ba.jpg",
 				  "place": "10"
 				}
 			]
