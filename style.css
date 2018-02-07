@@ -73,7 +73,7 @@ nav a:hover {
 	margin: 0;
 	padding-top: 30px;
 	text-align: center;
-	font-size: 36px;
+	font-size: 50px;
 	font-weight: 200;
 }
 
@@ -89,8 +89,17 @@ nav a:hover {
 
 .catHeading {
 	background: linear-gradient(to right, transparent, #7A5F24, transparent);
-	padding: 5px;
+	padding: 8px;
 	font-size: 32px;
+	font-weight: 400;
+	text-align: center;
+	margin: 60px 0 20px;
+}
+
+.aotyHeading {
+	background: linear-gradient(to right, transparent, #7A5F24, transparent);
+	padding: 8px;
+	font-size: 44px;
 	font-weight: 400;
 	text-align: center;
 	margin: 60px 0 20px;

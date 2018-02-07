@@ -2,7 +2,7 @@ var stuff = {
   "awards": [
     {
       "name": "Genre Awards",
-      "blurb": "test",
+      "blurb": "These awards are given to the shows from each genre that have displayed all round excellence amongst their peers. Each show was assigned to one of seven genre categories, and a winner was chosen among each category.",
       "categories": [
         {
           "name": "Best Action Anime",
@@ -513,6 +513,7 @@ var stuff = {
     },
     {
       "name": "Character Awards",
+	  "blurb": "These awards are given to the characters the characters with exceptional writing amongst both dramatic roles, comedic roles, and to the voice actors responsible for the best performances behind these characters.",
       "categories": [
         {
           "name": "Best Dramatic Main Character",
@@ -1139,6 +1140,7 @@ var stuff = {
     },
     {
       "name": "Production Awards",
+	  "blurb": "These awards given to the shows that have displayed exceptional performance in technical areas. From visuals, to sound, to OP and ED, every award in this section showcases a different aspect of the process of anime production.",
 	  "categories": [
 			{
 			  "name": "Best Animation",
@@ -1874,6 +1876,7 @@ var stuff = {
     },
 	{
       "name": "Main Awards",
+	  "blurb": "The anime of the year. The greatest of them all. These awards divided each anime from 2017 by format, and the very best among each one was awarded the title of best short, best movie, and the coveted best anime of the year.",
 	  "categories": [
 		{
 			  "name": "Best Short",
