@@ -105,6 +105,12 @@ nav a:hover {
 	margin: 60px 0 20px;
 }
 
+.catHeading a, .aotyHeading a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
 .rankingContainer .ranking{
 	float: left;
 	width: calc(50% - 10px);

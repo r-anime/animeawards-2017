@@ -30,14 +30,14 @@
 			<div id="intro">
 				<h2 class="subHeading">Introduction</h2>
 				<p class="blurb">
-					The /r/anime awards are a community awards project run by volunteers from the Reddit /r/anime community. Together we aim to find and showcase the best that anime has to offer from the 2017. This is the second consecutive year that these awards have been run.
+					The /r/anime awards are a community awards project run by volunteers from the Reddit /r/anime community. Together we aim to find and showcase the best that anime has to offer from 2017. This is the second consecutive year that these awards have been run.
 				</p>
 				<h2 class="subHeading">How it Works</h2>
 				<p class="blurb">
-					These awards are conceived on two main principles: involving the community as much as possible, and giving each show the fair chance it deserves. Thus, <b>each award category has two distinct winners chosen separately by public vote and jury decision.</b>
+					The awards are conceived on two main principles: involving the community as much as possible and giving each show the fair chance it deserves. Thus, <b>each award category has two distinct winners chosen separately by public vote and jury decision.</b>
 				</p>
 				<p class="blurb">
-					The <b>public vote</b> is open to all members of the community. Anyone is eligible to vote and have their opinions counted towards these awards. Public vote is also responsible for selecting half the nominees.
+					The <b>public vote</b> is open to all members of the community. Anyone is eligible to vote and have their opinions counted towards the awards. Public vote is also responsible for selecting half the nominees.
 				</p>
 				<p class="blurb">
 					The <b>jury decision</b> was reached by a smaller group of voters after discussion and debate. Jurors are chosen from applicants within the community, and are obligated to watch each nominee in their assigned categories. The jury is also responsible for selecting the remaining nominees in each category.
@@ -52,10 +52,10 @@
 				</p>
 				<div class="rankingContainer" ng-repeat="category in award.categories">
 					<h3 class="catHeading" ng-if="category.name != 'Anime of the Year'">
-						{{category.name}}
+						<a href="{{category.link}}">{{category.name}}</a>
 					</h3>
 					<h3 class="aotyHeading" ng-if="category.name == 'Anime of the Year'">
-						{{category.name}}
+						<a href="{{category.link}}">{{category.name}}</a>
 					</h3>
 					<div class="ranking ranking{{category.public.length}} rankingPublic">
 						<h4 class="groupHeadingContainer"><span class="publicHeading" onclick="publicButtonClick(this);">Public Pick</span></h4>
