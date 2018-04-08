@@ -1731,7 +1731,7 @@ var stuff = {
 				{
 				  "name": "Flag Wo Tatero",
 				  "img": "img/op/flag.png",
-				  "place": "3"
+				  "place": "4"
 				},
 				{
 				  "name": "Dark Cherry Mystery",
