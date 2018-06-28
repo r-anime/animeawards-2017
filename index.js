@@ -9,7 +9,11 @@ Vue.component('show-result', {
 		}
 	},
 	template: `
-		<div class="result" :style="backgroundStyle">
+		<div class="result">
+			<div
+				class="result-image"
+				:style="backgroundStyle"
+			/>
 			<div class="result-caption">
 				<span :class="['result-title', {small: show.name.length > 12}]">
 					{{show.name}}

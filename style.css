@@ -179,9 +179,23 @@ header .header-snoo {
 	overflow: hidden;
 	width: 25%;
 	height: 180px;
-	background: #000 no-repeat center center;
-	background-size: cover;
 	float: left;
+}
+.result-image {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -2;
+	background: transparent no-repeat center/cover;
+	/* image is added via style property */
+	transform-origin: center;
+	transition: transform 150ms;
+}
+.result:hover .result-image {
+	transform: scale(1.1);
 }
 .result-caption {
 	position: absolute;
