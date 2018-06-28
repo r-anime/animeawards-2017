@@ -15,6 +15,7 @@ body {
 	background-color: #1b1f25;
 	color: #fafbfc;
 	min-height: 100vh;
+	overflow-y: scroll;
 }
 
 .clear {
