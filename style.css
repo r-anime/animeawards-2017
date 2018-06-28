@@ -1,8 +1,8 @@
-/*	Normalization + Basic Colour */
+/* Normalization + Basic Colour */
 
 * {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 	font-style: normal;
 }
 
@@ -11,42 +11,39 @@
 	padding: 0;
 }
 
-body{
+body {
 	background-color: #1b1f25;
 	color: #fafbfc;
-	min-height: 2000px;
+	min-height: 100vh;
 }
 
-.clear{
+.clear {
 	clear: both;
 }
 
-/*	Heading */
-
-header{
+/* Page header */
+header {
 	background-color: #6a9de6;
 	text-align: center;
 	position: relative;
 }
-
-header h1{
+header h1 {
 	font-size: 60px;
 }
-
-header img.headerSnoo{
+header .header-snoo {
 	position: relative;
 	bottom: -15px;
 	height: 80px;
 	margin: 0 -7px;
 }
 
-nav {
+.sections-nav {
 	background: #557DB8;
 	position: sticky;
 	top: 0;
 	z-index: 9999;
 }
-nav ul {
+.sections-list {
 	margin: 0 auto;
 	padding: 0;
 	display: flex;
@@ -54,22 +51,22 @@ nav ul {
 	max-width: 800px;
 	justify-content: center;
 }
-nav li {
+.sections-list-item {
 	list-style: none;
 }
-nav a {
+.sections-list-item-link {
 	color: #FFF;
 	text-decoration: none;
 	display: block;
 	padding: 10px;
 }
-nav a:hover {
+.sections-list-item-link:hover {
 	text-decoration: underline;
 }
 
-/*		SubHeaders */
+/* Categories */
 
-.subHeading {
+.section-title {
 	color: #E7A924;
 	margin: 0;
 	padding-top: 30px;
@@ -77,18 +74,19 @@ nav a:hover {
 	font-size: 50px;
 	font-weight: 200;
 }
-
-.blurb {
-	max-width: 700px;
+.section-blurb {
+	max-width: 40em;
 	text-align: justify;
 	margin: 20px auto 30px;
 	line-height: 1.5em;
 }
-.blurb b {
-	font-weight: 700;
+.section-blurb b {
+	font-weight: 800;
 }
 
-.catHeading {
+/* Awards */
+
+.award-title {
 	background: linear-gradient(to right, transparent, #7A5F24, transparent);
 	padding: 8px;
 	font-size: 32px;
@@ -97,108 +95,83 @@ nav a:hover {
 	margin: 60px 0 20px;
 }
 
-.aotyHeading {
+/* .aotyHeading {
 	background: linear-gradient(to right, transparent, #7A5F24, transparent);
 	padding: 8px;
 	font-size: 44px;
 	font-weight: 400;
 	text-align: center;
 	margin: 60px 0 20px;
-}
+} */
 
-.catHeading a, .aotyHeading a{
+/* .catHeading a, .aotyHeading a{
 	color: white;
 	text-decoration: none;
-}
+} */
 
-.rankingContainer .ranking{
+.award-ranking {
 	float: left;
 	width: calc(50% - 10px);
 	position: relative;
 }
-.rankingContainer .ranking:nth-of-type(2n) {
+.award-ranking.jury {
 	margin-left: 20px;
 }
 
-/*	Main Content */
+/* Main Content */
 
-#contentBody{
+.content {
 	width: calc(100% - 40px);
 	max-width: 1080px;
 	margin: 0px auto;
 }
 
 /* Public/jury stuff */
-.rankingContainer .groupHeadingContainer{
+.award-ranking-title {
 	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: 1;
+	padding: 8px 0 8px 10px;
 	text-align: center;
 	font-size: 24px;
 	width: 33%;
 	min-width: 130px;
-}
-.rankingContainer .groupHeadingContainer span {
-	display: block;
-	padding: 8px 0 8px 10px;
 	font-weight: 400;
 }
-.rankingContainer .groupHeadingContainer span:after {
+.award-ranking-title::after {
 	content: "";
-	z-index:1;
+	z-index: 1;
 	position: absolute;
 	top: 0;
 	right: -20px;
 	border-top: 45px solid;
 	border-right: 20px solid transparent;
 }
-/*		Public Style */
-.rankingContainer .groupHeadingContainer .publicHeading{
+.public .award-ranking-title {
 	background-color: #c5d8f2;
 	color: #1b1f25;
 }
-.rankingContainer .groupHeadingContainer .publicHeading:after{
+.public .award-ranking-title::after {
 	border-top-color: #c5d8f2;
 }
-
-/*		Jury Style */
-.rankingContainer .groupHeadingContainer .juryHeading{
+.jury .award-ranking-title {
 	background-color: #355079;
 }
-.rankingContainer .groupHeadingContainer .juryHeading:after {
+.jury .award-ranking-title::after {
 	border-top-color: #355079;
 }
 
-.rankingContainer .ranking6 .result{
+.result {
 	position: relative;
 	overflow: hidden;
-	width: 20%;
-	height: 180px;
-	background: #000 no-repeat center center;
-	background-size: cover;
-	float: left;
-}
-
-.rankingContainer .ranking10 .result{
-	position: relative;
-	overflow: hidden;
-	width: 20%;
-	height: 180px;
-	background: #000 no-repeat center center;
-	background-size: cover;
-	float: left;
-}
-
-.rankingContainer .ranking10 .result:nth-of-type(-n+5){
 	width: 25%;
+	height: 180px;
+	background: #000 no-repeat center center;
+	background-size: cover;
+	float: left;
 }
-
-.rankingContainer .ranking10 .result:nth-of-type(1){
-	width: 100%;
-}
-
-.rankingContainer .result .title{
+.result-caption {
 	position: absolute;
 	bottom: 0;
 	padding: 4px 0;
@@ -206,82 +179,60 @@ nav a:hover {
 	height: 44px;
 
 	text-align: center;
-	font-size: 18px;
+	font-size: 12px;
 	background: rgba( 0, 0, 0, 0.8);
 }
-
-.rankingContainer .result .title .showTitle{
+.result-title {
 	height: 26px;
+	display: block;
 }
-
-.rankingContainer .result .title .centerTitle{
-	position: relative;
-    top: 50%;
-	transform: translateY(-50%); 
-}
-
-.rankingContainer .result .title .centerTitle.smallTitle{
-	font-size: 13px;
-}
-
-.rankingContainer .result .title .placing{
+.result-rank {
 	font-weight: 400;
 	font-size: 12px;
+	display: block;
 }
-
-.rankingContainer .result .title span.placing::before{
+.result-rank::before {
 	content: "";
 	display: inline-block;
 	width: 30px;
 	height: 1px;
-	background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
+	background: linear-gradient(to right, transparent, #FFF);
 	position: relative;
 	bottom: 4px;
 	right: 4px;
 }
-
-.rankingContainer .result .title span.placing::after{
+.result-rank::after{
 	content: "";
 	display: inline-block;
 	width: 30px;
 	height: 1px;
-	background: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1));
+	background: linear-gradient(to left, transparent, #FFF);
 	position: relative;
 	bottom: 4px;
 	left: 4px;
 }
 
-.rankingContainer .result:nth-of-type(1){
-	position: relative;
-	overflow: hidden;
-	height: 480px;
-	
-	background: #000 no-repeat center center;
-	background-size: cover;
+.result:nth-last-of-type(-n+5) {
+	width: 20%;
+	height: 144px;
 }
-
-.rankingContainer .result:nth-of-type(1) .title{
-	position: absolute;
-	bottom: 0;
-	padding: 8px 0;
+.result:nth-of-type(1) {
 	width: 100%;
-	height: 60px;
-
-	text-align: center;
-	font-size: 32px;
-	background: rgba( 0, 0, 0, 0.8);
+	height: 450px;
 }
-
-.rankingContainer .result:nth-of-type(1) .title .centerTitle.smallTitle{
-	font-size: 32px;
+.result:nth-of-type(1) .result-caption {
+	height: 80px;
+	line-height: 40px;
 }
-
-.rankingContainer .result:nth-of-type(1) .title .placing{
+.result:nth-of-type(1) .result-title {
+	font-size: 32px;
+	line-height: 40px;
+}
+.result:nth-of-type(1) .result-rank {
 	font-weight: 400;
 	font-size: 24px;
 }
-
-.rankingContainer .result:nth-of-type(1) .title span.placing::before{
+.result:nth-of-type(1) .result-rank::before{
 	content: "";
 	display: inline-block;
 	width: 100px;
@@ -291,8 +242,7 @@ nav a:hover {
 	bottom: 8px;
 	right: 8px;
 }
-
-.rankingContainer .result:nth-of-type(1) .title span.placing::after{
+.result:nth-of-type(1) .result-rank::after{
 	content: "";
 	display: inline-block;
 	width: 100px;
@@ -304,27 +254,23 @@ nav a:hover {
 }
 
 /* Honorable Mentions */
-.hmContainer {
+.award-hms {
 	margin-top: 20px;
 }
 
-.hmHeadingContainer {
+.award-hms-title {
 	/*color: #8c6dd1;*/
 	text-align: center;
 	font-size: 28px;
 	font-weight: 400;
 }
-.hmContainer li{
-	list-style: none;
-}
-
-.hmContainer ul li{
+.award-hms-list-item {
 	text-align: center;
 	text-decoration: none;
 }
 
 /* Footer */
-footer{
+footer {
 	margin-top: 70px;
 	background-color: #6a9de6;
 	text-align: center;
@@ -332,7 +278,7 @@ footer{
 	padding: 12px;
 }
 
-footer a{
+footer a {
 	color: white;
 	text-decoration: none;
 	font-weight: 400;
@@ -343,14 +289,12 @@ footer a{
 @media screen and (max-width: 600px) {
 	.result{
 		transition: opacity 0.5s;
-	}
-	.rankingContainer .result{
 		height: 180px;
 	}
 	.rankingContainer .result:nth-of-type(1) {
 		height: 380px;
 	}
-	
+
 	/* below here are all hacks to make the responsiveness work */
 	/* please someone shoot me for this code */
 	/* -geo */
@@ -390,15 +334,15 @@ footer a{
 	.ranking.rankingJury .result{
 		opacity: 0;
 	}
-	
+
 	.ranking.rankingPublic .groupHeadingContainer {
 		opacity: 1;
 	}
-	
+
 	.rankingContainer .result .title .centerTitle{
 		font-size: 22px !important;
 	}
-	
+
 	.rankingContainer .result .title .placing{
 		font-weight: 400;
 		font-size: 16px;
@@ -409,14 +353,12 @@ footer a{
 	.rankingContainer .result:nth-of-type(1){
 		width: 100%;
 	}
-	
+
 	.ranking .groupHeadingContainer {
 		opacity: 1 !important;
 	}
-	
+
 	.ranking .result{
 		opacity: 1 !important;
 	}
-	
-	
 }

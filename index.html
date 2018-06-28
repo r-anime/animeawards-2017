@@ -11,107 +11,16 @@
 			crossorigin="anonymous"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
-	    <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style.css">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	</head>
-	<body ng-app="aniwardsApp" ng-controller="aniwardsController">
-		<header>
-			<h1><img class="headerSnoo" src="img/snoo.png">/r/anime Awards 2017</h1>
-		</header>
-		<nav>
-			<ul>
-				<li><a href="#" onclick="$('html,body').animate({scrollTop: 0}, 400); return false;">Intro</a></li>
-				<li ng-repeat="award in awards">
-					<a href="#award-{{$index}}" ng-click="scrollTo($index)">{{award.name}}</a>
-				</li>
-			</ul>
-		</nav>
-		<div id="contentBody">
-			<div id="intro">
-				<h2 class="subHeading">Introduction</h2>
-				<p class="blurb">
-					The /r/anime awards are a community awards project run by volunteers from the Reddit /r/anime community. Together we aim to find and showcase the best that anime has to offer from 2017. This is the second consecutive year that these awards have been run.
-				</p>
-				<h2 class="subHeading">How it Works</h2>
-				<p class="blurb">
-					The awards are conceived on two main principles: involving the community as much as possible and giving each show the fair chance it deserves. Thus, <b>each award category has two distinct winners chosen separately by public vote and jury decision.</b>
-				</p>
-				<p class="blurb">
-					The <b>public vote</b> is open to all members of the community. Anyone is eligible to vote and have their opinions counted towards the awards. Public vote is also responsible for selecting half the nominees.
-				</p>
-				<p class="blurb">
-					The <b>jury decision</b> was reached by a smaller group of voters after discussion and debate. Jurors are chosen from applicants within the community, and are obligated to watch each nominee in their assigned categories. The jury is also responsible for selecting the remaining nominees in each category.
-				</p>
-			</div>
-			<div ng-repeat="award in awards">
-				<h2 id="award-{{$index}}" class="subHeading">
-					{{award.name}}
-				</h2>
-				<p class="blurb">
-					{{award.blurb}}
-				</p>
-				<div class="rankingContainer" ng-repeat="category in award.categories">
-					<h3 class="catHeading" ng-if="category.name != 'Anime of the Year'">
-						<a href="{{category.link}}">{{category.name}}</a>
-					</h3>
-					<h3 class="aotyHeading" ng-if="category.name == 'Anime of the Year'">
-						<a href="{{category.link}}">{{category.name}}</a>
-					</h3>
-					<div class="ranking ranking{{category.public.length}} rankingPublic">
-						<h4 class="groupHeadingContainer"><span class="publicHeading" onclick="publicButtonClick(this);">Public Pick</span></h4>
-							<div class="result" ng-repeat="result in category.public" style="background-image: url('{{result.img}}');">
-								<div class="title">
-									<div class="showTitle">
-										<div class="centerTitle" ng-if="result.name.length < 12">
-											{{result.name}}
-										</div>
-										<div class="centerTitle smallTitle" ng-if="result.name.length >= 12">
-											{{result.name}}
-										</div>
-									</div>
-									<span class="placing">{{result.place}}</span>
-								</div>
-							</div>
-						<div class="clear"></div>
-					</div>
-					<div class="ranking ranking{{category.jury.length}} rankingJury">
-						<h4 class="groupHeadingContainer"><span class="juryHeading" onclick="juryButtonClick(this);">Jury Pick</span></h4>
-						<div class="result" ng-repeat="result in category.jury" style="background-image: url('{{result.img}}');">
-								<div class="title">
-									<div class="showTitle">
-										<div class="centerTitle" ng-if="result.name.length < 12">
-											{{result.name}}
-										</div>
-										<div class="centerTitle smallTitle" ng-if="result.name.length >= 12">
-											{{result.name}}
-										</div>
-									</div>
-									<span class="placing">{{result.place}}</span>
-								</div>
-							</div>
-						<div class="clear"></div>
-					</div>
-					<div class="clear"></div>
-					<div ng-if="category.hms.length > 0" class="hmContainer">
-						<h4 class="hmHeadingContainer">
-							Honorable Mentions
-						</h4>
-						<ul>
-							<li ng-repeat="hm in category.hms">
-								{{hm.name}}
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<footer>
-			<h2>Special thanks to the mods, volunteers, and community of <a href="https://reddit.com/r/anime">r/anime!</a><b></b></h2>
-		</footer>
+	<body>
+		<div id="app"></div>
 		<script src="awards.js"></script>
-		<script src="awardsdata.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+		<script src="index.js"></script>
 		<script src="responsive.js"></script>
 		<script type="text/javascript" src="stickyfill.min.js"></script>
 		<script type="text/javascript">

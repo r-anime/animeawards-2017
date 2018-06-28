@@ -1,9 +1,21 @@
 var stuff = {
-  "awards": [
+  "sections": [
+    {
+      "name": "Introduction",
+      "blurb": "The /r/anime awards are a community awards project run by volunteers from the Reddit /r/anime community. Together we aim to find and showcase the best that anime has to offer from 2017. This is the second consecutive year that these awards have been run."
+    },
+    {
+      "name": "How it Works",
+      "blurb": [
+        "The awards are conceived on two main principles: involving the community as much as possible and giving each show the fair chance it deserves. Thus, <b>each award category has two distinct winners chosen separately by public vote and jury decision.</b>",
+        "The <b>public vote</b> is open to all members of the community. Anyone is eligible to vote and have their opinions counted towards the awards. Public vote is also responsible for selecting half the nominees.",
+        "The <b>jury decision</b> was reached by a smaller group of voters after discussion and debate. Jurors are chosen from applicants within the community, and are obligated to watch each nominee in their assigned categories. The jury is also responsible for selecting the remaining nominees in each category."
+      ]
+    },
     {
       "name": "Genre Awards",
       "blurb": "These awards are given to the shows from each genre that have displayed all round excellence amongst their peers. Each show was assigned to one of seven genre categories, and a winner was chosen among each category.",
-      "categories": [
+      "awards": [
         {
           "name": "Best Action Anime",
 		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj36a/jury_writeups_judges_best_action_anime_ranking/",
@@ -223,7 +235,7 @@ var stuff = {
             },
             {
               "name": "Imouto Sae Ireba Ii"
-            }			
+            }
           ]
         },
         {
@@ -299,7 +311,7 @@ var stuff = {
 			},
             {
               "name": "Yuuki Yuuna wa Yuusha de Aru: Washio Sumi no Shou + Yuusha no Shou"
-            }			
+            }
           ]
         },
         {
@@ -521,7 +533,7 @@ var stuff = {
     {
       "name": "Character Awards",
 	  "blurb": "These awards are given to the characters the characters with exceptional writing amongst both dramatic roles, comedic roles, and to the voice actors responsible for the best performances behind these characters.",
-      "categories": [
+      "awards": [
         {
           "name": "Best Dramatic Main Character",
 		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2p3/jury_writeups_judges_best_main_character_in_a/",
@@ -902,7 +914,7 @@ var stuff = {
             },
             {
               "name": "Utsuro"
-            }			
+            }
           ]
         },
         {
@@ -1145,10 +1157,10 @@ var stuff = {
             },
 			{
               "name": "Megumi Han as Akko"
-            },            
+            },
 			{
               "name": "Sora Amamiya as Aqua"
-            }			
+            }
           ]
         }
       ]
@@ -1156,7 +1168,7 @@ var stuff = {
     {
       "name": "Production Awards",
 	  "blurb": "These awards given to the shows that have displayed exceptional performance in technical areas. From visuals, to sound, to OP and ED, every award in this section showcases a different aspect of the process of anime production.",
-	  "categories": [
+	  "awards": [
 			{
 			  "name": "Best Animation",
 			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2aj/jury_writeups_judges_best_animation_ranking/",
@@ -1409,7 +1421,7 @@ var stuff = {
 				},
 				{
 				  "name": "Princess Principal"
-				}				
+				}
 			  ]
 			},
 			{
@@ -1564,10 +1576,10 @@ var stuff = {
 				},
 				{
 				  "name": "Kakegurui"
-				},				
+				},
 				{
 				  "name": "Kemono Friends"
-				},				
+				},
 				{
 				  "name": "Miss Kobayashi's Dragon Maid"
 				},
@@ -1900,7 +1912,7 @@ var stuff = {
 	{
       "name": "Main Awards",
 	  "blurb": "The anime of the year. The greatest of them all. These awards divided each anime from 2017 by format, and the very best among each one was awarded the title of best short, best movie, and the coveted best anime of the year.",
-	  "categories": [
+	  "awards": [
 		{
 			  "name": "Best Short",
 			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj38d/jury_writeups_judges_best_shortform_anime_ranking/",
