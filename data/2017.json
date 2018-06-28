@@ -1,11 +1,24 @@
 {
-  "awards": [
+  "sections": [
+    {
+      "name": "Introduction",
+      "blurb": "The /r/anime awards are a community awards project run by volunteers from the Reddit /r/anime community. Together we aim to find and showcase the best that anime has to offer from 2017. This is the second consecutive year that these awards have been run."
+    },
+    {
+      "name": "How it Works",
+      "blurb": [
+        "The awards are conceived on two main principles: involving the community as much as possible and giving each show the fair chance it deserves. Thus, <b>each award category has two distinct winners chosen separately by public vote and jury decision.</b>",
+        "The <b>public vote</b> is open to all members of the community. Anyone is eligible to vote and have their opinions counted towards the awards. Public vote is also responsible for selecting half the nominees.",
+        "The <b>jury decision</b> was reached by a smaller group of voters after discussion and debate. Jurors are chosen from applicants within the community, and are obligated to watch each nominee in their assigned categories. The jury is also responsible for selecting the remaining nominees in each category."
+      ]
+    },
     {
       "name": "Genre Awards",
-      "blurb": "test",
-      "categories": [
+      "blurb": "These awards are given to the shows from each genre that have displayed all round excellence amongst their peers. Each show was assigned to one of seven genre categories, and a winner was chosen among each category.",
+      "awards": [
         {
           "name": "Best Action Anime",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj36a/jury_writeups_judges_best_action_anime_ranking/",
           "public": [
             {
               "name": "My Hero Academia",
@@ -78,6 +91,7 @@
         },
         {
           "name": "Best Adventure Anime",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj5wc/jury_writeups_judges_best_adventure_anime_ranking/",
           "public": [
             {
               "name": "Made in Abyss",
@@ -142,7 +156,7 @@
               "place": "6"
             }
           ],
-		  "hms": [
+          "hms": [
             {
               "name": "Shingeki no Bahamut: Virgin Soul"
             }
@@ -150,6 +164,7 @@
         },
         {
           "name": "Best Comedy Anime",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj33e/jury_writeups_judges_best_comedy_anime_ranking/",
           "public": [
             {
               "name": "KonoSuba 2",
@@ -220,11 +235,12 @@
             },
             {
               "name": "Imouto Sae Ireba Ii"
-            }			
+            }
           ]
         },
         {
           "name": "Best Drama Anime",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj31o/jury_writeups_judges_best_drama_anime_ranking/",
           "public": [
             {
               "name": "3-gatsu no Lion",
@@ -295,11 +311,12 @@
 			},
             {
               "name": "Yuuki Yuuna wa Yuusha de Aru: Washio Sumi no Shou + Yuusha no Shou"
-            }			
+            }
           ]
         },
         {
           "name": "Best Romance Anime",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2zn/jury_writeups_judges_best_romance_anime_ranking/",
           "public": [
             {
               "name": "Tsuki ga Kirei",
@@ -367,6 +384,7 @@
         },
         {
           "name": "Best Slice of Life Anime",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2y6/jury_writeups_judges_best_slice_of_life_anime/",
           "public": [
             {
               "name": "Miss Kobayashi's Dragon Maid",
@@ -439,6 +457,7 @@
         },
         {
           "name": "Best Thriller/Mystery Anime",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2wv/jury_writeups_judges_best_thrillermystery_anime/",
           "public": [
             {
               "name": "Princess Principal",
@@ -513,12 +532,14 @@
     },
     {
       "name": "Character Awards",
-      "categories": [
+	  "blurb": "These awards are given to the characters the characters with exceptional writing amongst both dramatic roles, comedic roles, and to the voice actors responsible for the best performances behind these characters.",
+      "awards": [
         {
           "name": "Best Dramatic Main Character",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2p3/jury_writeups_judges_best_main_character_in_a/",
           "public": [
             {
-              "name": "Phosphopphylite",
+              "name": "Phosphophyllite",
               "img": "img/maindramatic/phos.jpg",
               "place": "1"
             },
@@ -565,7 +586,7 @@
               "place": "3"
             },
             {
-              "name": "Phosphopphylite",
+              "name": "Phosphophyllite",
               "img": "img/maindramatic/phos.jpg",
               "place": "4"
             },
@@ -591,6 +612,7 @@
         },
         {
           "name": "Best Dramatic Supporting Character",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2me/jury_writeups_judges_best_supporting_character_in/",
           "public": [
             {
               "name": "Nanachi",
@@ -666,6 +688,7 @@
         },
         {
           "name": "Best Comedic Main Character",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2o8/jury_writeups_judges_best_main_character_in_a/",
           "public": [
             {
               "name": "Kazuma",
@@ -738,6 +761,7 @@
         },
         {
           "name": "Best Comedic Supporting Character",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2lj/jury_writeups_judges_best_supporting_character_in/",
           "public": [
             {
               "name": "Yunyun",
@@ -816,6 +840,7 @@
         },
         {
           "name": "Best Antagonist",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2if/jury_writeups_judges_best_antagonist_ranking/",
           "public": [
             {
               "name": "Stain",
@@ -824,7 +849,7 @@
             },
             {
               "name": "Ougi Oshino",
-              "img": "img/antagonist/ougi.jpg",
+              "img": "img/antagonist/ougi2.jpg",
               "place": "2"
             },
             {
@@ -851,7 +876,7 @@
           "jury": [
             {
               "name": "Ougi Oshino",
-              "img": "img/antagonist/ougi.jpg",
+              "img": "img/antagonist/ougi2.jpg",
               "place": "1"
             },
             {
@@ -889,11 +914,12 @@
             },
             {
               "name": "Utsuro"
-            }			
+            }
           ]
         },
         {
           "name": "Best Ensemble",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2gn/jury_writeups_judges_best_ensemble_cast_ranking/",
           "public": [
             {
               "name": "KonoSuba 2",
@@ -906,7 +932,7 @@
               "place": "2"
             },
             {
-              "name": "My Hero Academia 2",
+              "name": "My Hero Academia",
               "img": "img/ensemble/bnha.jpg",
               "place": "3"
             },
@@ -975,6 +1001,7 @@
         },
 		{
           "name": "Best Male VA",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2ef/jury_writeups_judges_best_male_va_in_role_ranking/",
           "public": [
             {
               "name": "Jun Fukushima as Kazuma",
@@ -1056,6 +1083,7 @@
         },
 		{
           "name": "Best Female VA",
+		  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2d0/jury_writeups_judges_best_female_va_in_role/",
           "public": [
             {
               "name": "Saori Hayami as Shouko",
@@ -1129,19 +1157,21 @@
             },
 			{
               "name": "Megumi Han as Akko"
-            },            
+            },
 			{
               "name": "Sora Amamiya as Aqua"
-            }			
+            }
           ]
         }
       ]
     },
     {
       "name": "Production Awards",
-	  "categories": [
+	  "blurb": "These awards given to the shows that have displayed exceptional performance in technical areas. From visuals, to sound, to OP and ED, every award in this section showcases a different aspect of the process of anime production.",
+	  "awards": [
 			{
 			  "name": "Best Animation",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj2aj/jury_writeups_judges_best_animation_ranking/",
 			  "public": [
 				{
 				  "name": "Houseki no Kuni",
@@ -1235,6 +1265,7 @@
 			},
 			{
 			  "name": "Best Art Style",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj28g/jury_writeups_judges_best_art_style_ranking/",
 			  "public": [
 				{
 				  "name": "Made in Abyss",
@@ -1319,6 +1350,7 @@
 			},
 			{
 			  "name": "Best Background Art",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj23q/jury_writeups_judges_best_background_art_ranking/",
 			  "public": [
 				{
 				  "name": "Made in Abyss",
@@ -1389,11 +1421,12 @@
 				},
 				{
 				  "name": "Princess Principal"
-				}				
+				}
 			  ]
 			},
 			{
 			  "name": "Best Cinematography ",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj26y/jury_writeups_judges_best_cinematography_ranking/",
 			  "public": [
 				{
 				  "name": "Houseki no Kuni",
@@ -1472,6 +1505,7 @@
 			},
 			{
 			  "name": "Best Character Design",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj25d/jury_writeups_judges_best_character_design/",
 			  "public": [
 				{
 				  "name": "My Hero Academia",
@@ -1526,7 +1560,7 @@
 				  "place": "4"
 				},
 				{
-				  "name": "My Hero Academia 2",
+				  "name": "My Hero Academia",
 				  "img": "img/chardesign/bnha.jpg",
 				  "place": "5"
 				},
@@ -1542,10 +1576,10 @@
 				},
 				{
 				  "name": "Kakegurui"
-				},				
+				},
 				{
 				  "name": "Kemono Friends"
-				},				
+				},
 				{
 				  "name": "Miss Kobayashi's Dragon Maid"
 				},
@@ -1556,6 +1590,7 @@
 			},
 			{
 			  "name": "Best Original Soundtrack (OST)",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj3os/jury_writeups_judges_best_ost_ranking_honorable/",
 			  "public": [
 				{
 				  "name": "Made in Abyss",
@@ -1629,11 +1664,15 @@
 				},
 				{
 				  "name": "Princess Principal"
+				},
+				{
+				  "name": "Uchouten Kazoku 2"
 				}
 			  ]
 			},
 			{
 			  "name": "Best OP (Opening)",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj21k/jury_writeups_judges_best_op_ranking_honorable/",
 			  "public": [
 				{
 				  "name": "Aozora no Rhapsody",
@@ -1704,7 +1743,7 @@
 				{
 				  "name": "Flag Wo Tatero",
 				  "img": "img/op/flag.png",
-				  "place": "3"
+				  "place": "4"
 				},
 				{
 				  "name": "Dark Cherry Mystery",
@@ -1750,6 +1789,7 @@
 			},
 			{
 			  "name": "Best ED (Ending) ",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj209/jury_writeups_judges_best_ed_ranking_honorable/",
 			  "public": [
 				{
 				  "name": "Heikousen",
@@ -1871,9 +1911,11 @@
     },
 	{
       "name": "Main Awards",
-	  "categories": [
+	  "blurb": "The anime of the year. The greatest of them all. These awards divided each anime from 2017 by format, and the very best among each one was awarded the title of best short, best movie, and the coveted best anime of the year.",
+	  "awards": [
 		{
 			  "name": "Best Short",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj38d/jury_writeups_judges_best_shortform_anime_ranking/",
 			  "public": [
 				{
 				  "name": "Tsurezure Children",
@@ -1952,6 +1994,7 @@
 			},
 			{
 			  "name": "Best Movie",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vj3ak/jury_writeups_judges_best_anime_movie_ranking/",
 			  "public": [
 				{
 				  "name": "Koe no Katachi",
@@ -1991,13 +2034,13 @@
 				  "place": "1"
 				},
 				{
-				  "name": "Koe no Katachi",
-				  "img": "img/movie/koe.jpg",
+				  "name": "In This Corner of the World",
+				  "img": "img/movie/corner.jpg",
 				  "place": "2"
 				},
 				{
-				  "name": "In This Corner of the World",
-				  "img": "img/movie/corner.jpg",
+				  "name": "Koe no Katachi",
+				  "img": "img/movie/koe.jpg",
 				  "place": "3"
 				},
 				{
@@ -2024,6 +2067,7 @@
 			},
 			{
 			  "name": "Anime of the Year",
+			  "link": "https://www.reddit.com/r/AnimeAwards/comments/7vp7a7/jury_writeups_judges_anime_of_the_year_ranking/",
 			  "public": [
 				{
 				  "name": "Made in Abyss",
@@ -2094,7 +2138,7 @@
 				{
 				  "name": "Girls' Last Tour",
 				  "img": "img/aoty/glt.jpg",
-				  "place": "3"
+				  "place": "4"
 				},
 				{
 				  "name": "Made in Abyss",
