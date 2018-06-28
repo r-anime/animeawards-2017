@@ -58,11 +58,12 @@ Vue.component('award-results', {
 					:rank="index + 1"
 				/>
 			</div>
+			<div class="clear"/>
 			<div v-if="award.hms" class="award-hms">
 				<h4 class="award-hms-title">Honorable Mentions</h4>
 				<ul class="award-hms-list">
 					<li v-for="hm in award.hms" class="award-hms-list-item">
-						{{hm.title}}
+						{{hm.name}}
 					</li>
 				</ul>
 			</div>
@@ -142,7 +143,7 @@ new Vue({ // eslint-disable-line no-new
 					/r/anime awards
 				</h1>
 			</header>
-			<sections-nav :sections="stuff.sections" />
+			<sections-nav :sections="stuff.sections"/>
 			<main class="content">
 				<awards-section
 					v-for="section in stuff.sections"
