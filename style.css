@@ -65,7 +65,15 @@ header .header-snoo {
 }
 
 /* Categories */
-
+.section + .section::before {
+	content: "";
+	display: block;
+	width: 40em;
+	max-width: 100%;
+	height: 2px;
+	background: linear-gradient(to left, transparent, rgba(255,255,255,0.4), transparent);
+	margin: 30px auto 0;
+}
 .section-title {
 	color: #E7A924;
 	margin: 0;
@@ -90,9 +98,13 @@ header .header-snoo {
 	background: linear-gradient(to right, transparent, #7A5F24, transparent);
 	padding: 8px;
 	font-size: 32px;
-	font-weight: 400;
+	font-weight: 200;
 	text-align: center;
 	margin: 60px 0 20px;
+}
+.award-title a {
+	color: inherit;
+	text-decoration: inherit;
 }
 
 /* .aotyHeading {
@@ -183,13 +195,16 @@ header .header-snoo {
 	background: rgba( 0, 0, 0, 0.8);
 }
 .result-title {
-	height: 26px;
 	display: block;
+	position: relative;
+	font-size: 13px;
+	line-height: 1;
 }
 .result-rank {
 	font-weight: 400;
 	font-size: 12px;
 	display: block;
+	margin-top: 2px;
 }
 .result-rank::before {
 	content: "";
@@ -221,12 +236,12 @@ header .header-snoo {
 	height: 450px;
 }
 .result:nth-of-type(1) .result-caption {
-	height: 80px;
-	line-height: 40px;
+	height: 60px;
+	padding: 8px 0;
 }
 .result:nth-of-type(1) .result-title {
+	height: 26px;
 	font-size: 32px;
-	line-height: 40px;
 }
 .result:nth-of-type(1) .result-rank {
 	font-weight: 400;
@@ -257,7 +272,6 @@ header .header-snoo {
 .award-hms {
 	margin-top: 20px;
 }
-
 .award-hms-title {
 	/*color: #8c6dd1;*/
 	text-align: center;
@@ -265,6 +279,7 @@ header .header-snoo {
 	font-weight: 400;
 }
 .award-hms-list-item {
+	list-style: none;
 	text-align: center;
 	text-decoration: none;
 }

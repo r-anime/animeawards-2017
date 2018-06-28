@@ -57,7 +57,7 @@ Vue.component('award-results', {
 			<div v-if="award.hms" class="award-hms">
 				<h4 class="award-hms-title">Honorable Mentions</h4>
 				<ul class="award-hms-list">
-					<li v-for="hm of award.hms" class="award-hms-list-item">
+					<li v-for="hm in award.hms" class="award-hms-list-item">
 						{{hm.title}}
 					</li>
 				</ul>
